@@ -73,8 +73,8 @@ public class MessageNotifController {
             return successMap;
 
         } catch (Exception e) {
-            logger.error("*****回调函数执行出错！*****");
-            e.printStackTrace();
+            logger.error("*****回调函数执行出错！*****",e);
+//            e.printStackTrace();
         }
         return null;
     }

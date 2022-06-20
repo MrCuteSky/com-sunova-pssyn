@@ -38,7 +38,7 @@ public class DingTalkServiceImpl implements DingTalkService {
         try {
             response = client.execute(request);
         } catch (ApiException e) {
-            e.printStackTrace();
+            logger.error("*****更新钉钉通讯录token失败*****",e);
         }
         Authority authority = new Authority();
         authority.setAccesskey(JSONObject.parseObject(response.getBody()).getString("access_token"));
@@ -158,7 +158,7 @@ public class DingTalkServiceImpl implements DingTalkService {
             JSONObject jsonObject = JSONObject.parseObject(rsp.getBody());
             result = JSONObject.parseObject(jsonObject.get("result").toString(), Employee_Dt.class);
         } catch (ApiException e) {
-            e.printStackTrace();
+            logger.error("获取用户信息失败,userid:"+userid,e);
         }
         return result;
     }

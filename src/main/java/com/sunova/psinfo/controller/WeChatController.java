@@ -29,12 +29,12 @@ public class WeChatController {
         try{
             String access_token = weChatService.get_access_token();
             List<Employee_Wc> list = weChatService.get_per_detail(access_token);
-            String fileName = excelCon.GenExcel(list,"wc");
+            String fileName = excelCon.GenExcel(list,"person_wc");
 //            fileDownCon.downloadFile(request,response,fileName); //文件下载
 //            return new CommonResult(200,"员工信息获取成功").toString();
         }catch (Exception e){
-            e.printStackTrace();
-            logger.error("*****员工信息获取失败:" + e.getMessage() + "*****");
+//            e.printStackTrace();
+            logger.error("*****员工信息获取失败:" + e.getMessage() + "*****",e);
 //            return new CommonResult(402,e.getMessage()).toString();
         }
     }

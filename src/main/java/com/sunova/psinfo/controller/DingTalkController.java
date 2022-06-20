@@ -29,12 +29,12 @@ public class DingTalkController {
         try{
             String access_token = dingTalkService.get_access();
             List<Employee_Dt> list = dingTalkService.get_all_per_detail(access_token);
-            String fileName = excelCon.GenExcel(list,"dd");
+            String fileName = excelCon.GenExcel(list,"person_dd");
 //            fileDownCon.downloadFile(request,response,fileName);   //文件下载
 //            return new CommonResult(200,"员工信息获取成功").toString();
         }catch (Exception e){
             e.printStackTrace();
-            logger.error("*****员工信息获取失败:" + e.getMessage() + "*****");
+            logger.error("*****员工信息获取失败:" + e.getMessage() + "*****",e);
 //            return new CommonResult(402,e.getMessage()).toString();
         }
     }
