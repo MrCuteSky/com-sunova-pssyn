@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sunova.psinfo.mapper.AuthorityMapper">
+    <select id="getAuthorityByName" resultType="com.sunova.psinfo.entities.Authority">
+        select * from appAuthority where application=#{application}
+    </select>
+
+    <update id="updateAuthority" parameterType="com.sunova.psinfo.entities.Authority">
+        update appAuthority set accesskey=#{accesskey} where application=#{application}
+    </update>
+
+</mapper>

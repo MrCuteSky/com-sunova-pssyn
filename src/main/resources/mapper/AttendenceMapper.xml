@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sunova.psinfo.mapper.AttendenceMapper">
+
+    <insert id="insertAttendenceInfo" parameterType="com.sunova.psinfo.entities.Attendance">
+        insert into attendance value(#{userId},#{address},#{latitude},#{longitude},#{checkTime},#{corpId},#{groupId},#{bizId},#{locationMethod},#{deviceSN},#{locationResult})
+    </insert>
+
+</mapper>

@@ -1,0 +1,45 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: sunova
+# 配置springtask 定时任务相关的配置
+  task:
+    scheduling:
+      pool:
+        size: 10
+      thread-name-prefix: timetask
+    execution:
+      shutdown:
+        #        线程关闭时是否等所有任务结束
+        await-termination: false
+        #        线程最大的等待时间，防止线程陷入循环关不掉
+        await-termination-period: 10s
+server:
+  port: 8888
+  tomcat:
+    uri-encoding: UTF-8
+
+###################################### MyBatis 配置######################################
+mybatis:
+  # 指定 mapper.xml 的位置
+  mapper-locations: classpath:mapper/*.xml
+  #扫描实体类的位置,在此处指明扫描实体类的包，在 mapper.xml 中就可以不写实体类的全路径名
+  type-aliases-package: net.biancheng.www.bean
+  configuration:
+    #默认开启驼峰命名法，可以不用设置该属性
+    map-underscore-to-camel-case: false
+
+logging:
+  level:
+    com.sunova.psinfo.mapper: DEBUG
+#    root: INFO
+    web: DEBUG
+#  path: ./logs
+
+management.endpoints.web.exposure.include: httptrace
+
+ExcelPath: src/main/excelFile/
+JsonPath: src/main/jsonFile/
