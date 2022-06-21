@@ -28,17 +28,17 @@ public class DingTalkServiceImpl implements DingTalkService {
     AuthorityMapper authorityMapper;
 
     @Override
-    public int update_access_key() {
+    public int update_access_key(String Appkey,String Appsecret) {
         DingTalkClient client = new DefaultDingTalkClient("https://oapi.dingtalk.com/gettoken");
         OapiGettokenRequest request = new OapiGettokenRequest();
-        request.setAppkey("dingi9stfwesnlekpo7s");
-        request.setAppsecret("YR7JBtTLZxPs9x0Z9ysDhiNvkceu4UBYgHAeEdBbGrOIlUeRDc1GqC4KEOubCUQZ");
+        request.setAppkey(Appkey);
+        request.setAppsecret(Appsecret);
         request.setHttpMethod("GET");
         OapiGettokenResponse response = null;
         try {
             response = client.execute(request);
         } catch (ApiException e) {
-            logger.error("*****更新钉钉通讯录token失败*****",e);
+            logger.error("*****更新钉钉token失败*****",e);
         }
         Authority authority = new Authority();
         authority.setAccesskey(JSONObject.parseObject(response.getBody()).getString("access_token"));
@@ -47,8 +47,14 @@ public class DingTalkServiceImpl implements DingTalkService {
     }
 
     //从数据库获得access_key
-    public String get_access(){
+    public String get_access_Contacts(){
         Authority authority = authorityMapper.getAuthorityByName("Contacts_dd");
+        return authority.getAccesskey();
+    }
+
+    @Override
+    public String get_access_AD() {
+        Authority authority = authorityMapper.getAuthorityByName("AD_dd");
         return authority.getAccesskey();
     }
 

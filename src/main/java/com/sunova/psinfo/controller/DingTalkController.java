@@ -27,7 +27,7 @@ public class DingTalkController {
     public void empolyee_get_info(HttpServletRequest request, HttpServletResponse response){
         logger.info("*****开始读取钉钉员工信息并生成Excel*****");
         try{
-            String access_token = dingTalkService.get_access();
+            String access_token = dingTalkService.get_access_Contacts();
             List<Employee_Dt> list = dingTalkService.get_all_per_detail(access_token);
             String fileName = excelCon.GenExcel(list,"person_dd");
 //            fileDownCon.downloadFile(request,response,fileName);   //文件下载
@@ -39,8 +39,8 @@ public class DingTalkController {
         }
     }
 
-    @GetMapping("/test")
-    public String test(){
-        return "Success!";
+    //通过authCode获取userId
+    public String get_userIdbycode(String authCode){
+        return null;
     }
 }
