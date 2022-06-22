@@ -7,8 +7,8 @@
         select * from appAuthority where application=#{application}
     </select>
 
-    <update id="updateAuthority" parameterType="com.sunova.psinfo.entities.Authority">
-        update appAuthority set accesskey=#{accesskey} where application=#{application}
-    </update>
+    <insert id="updateAuthority" parameterType="com.sunova.psinfo.entities.Authority">
+        REPLACE INTO appAuthority (application,accesskey) VALUES (#{application},#{accesskey});
+    </insert>
 
 </mapper>

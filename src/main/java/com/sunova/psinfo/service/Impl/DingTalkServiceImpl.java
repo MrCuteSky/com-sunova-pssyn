@@ -28,7 +28,7 @@ public class DingTalkServiceImpl implements DingTalkService {
     AuthorityMapper authorityMapper;
 
     @Override
-    public int update_access_key(String Appkey,String Appsecret) {
+    public int update_access_key(String Appkey,String Appsecret,String Application) {
         DingTalkClient client = new DefaultDingTalkClient("https://oapi.dingtalk.com/gettoken");
         OapiGettokenRequest request = new OapiGettokenRequest();
         request.setAppkey(Appkey);
@@ -42,21 +42,16 @@ public class DingTalkServiceImpl implements DingTalkService {
         }
         Authority authority = new Authority();
         authority.setAccesskey(JSONObject.parseObject(response.getBody()).getString("access_token"));
-        authority.setApplication("Contacts_dd");
+        authority.setApplication(Application);
         return authorityMapper.updateAuthority(authority);
     }
 
     //从数据库获得access_key
-    public String get_access_Contacts(){
-        Authority authority = authorityMapper.getAuthorityByName("Contacts_dd");
+    public String get_access(String Application){
+        Authority authority = authorityMapper.getAuthorityByName(Application);
         return authority.getAccesskey();
     }
 
-    @Override
-    public String get_access_AD() {
-        Authority authority = authorityMapper.getAuthorityByName("AD_dd");
-        return authority.getAccesskey();
-    }
 
     //获取全部部门
     public List<String> get_dept(String access_token) {

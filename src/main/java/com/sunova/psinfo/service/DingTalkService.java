@@ -7,13 +7,10 @@ import java.util.List;
 
 public interface DingTalkService {
     //获取access_key并保存到数据库中
-    public int update_access_key(String Appkey,String Appsecret);
+    public int update_access_key(String Appkey,String Appsecret,String Application);
 
     //从数据库中获取access_key
-    public String get_access_Contacts();
-
-    //从数据库中获取access_key
-    public String get_access_AD();
+    public String get_access(String Application);
 
     //获取全部部门
     public List<String> get_dept(String access_token);
