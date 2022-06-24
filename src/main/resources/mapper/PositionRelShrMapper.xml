@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sunova.psinfo.mapper.PositionRelShrMapper">
+
+    <delete id="cleanTable">
+        delete from positionrel_shr
+    </delete>
+
+    <insert id="insertTable" parameterType="com.sunova.psinfo.entities.PositionRel">
+        REPLACE into positionrel_shr value(#{person_number},#{position_id},#{user_id})
+    </insert>
+</mapper>

@@ -14,4 +14,10 @@ public interface ShrService {
 
     //清空并更新数据库(部门)
     public void init_Database_Dept_Shr(String fileName) throws Exception;
+
+    //清空并更新数据库(职务)
+    public void init_Database_Position_Shr(String fileName) throws Exception;
+
+    //清空并更新数据库(人员职务关系)
+    public void init_Database_PositionRel_Shr(String fileName) throws Exception;
 }

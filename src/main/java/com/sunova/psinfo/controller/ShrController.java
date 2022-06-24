@@ -65,4 +65,22 @@ public class ShrController {
             logger.error("*****更新Shr部门信息数据库出错*****",e);
         }
     }
+
+    @GetMapping("/shr/position/init/database/{filename}")
+    public void updatePosiDb(@PathVariable("filename") String filename){
+        try {
+            shrService.init_Database_Position_Shr(filename);
+        } catch (Exception e) {
+            logger.error("*****更新Shr职务信息数据库出错*****",e);
+        }
+    }
+
+    @GetMapping("/shr/positionrel/init/database/{filename}")
+    public void updatePosiRelDb(@PathVariable("filename") String filename){
+        try {
+            shrService.init_Database_PositionRel_Shr(filename);
+        } catch (Exception e) {
+            logger.error("*****更新Shr人员职务信息数据库出错*****",e);
+        }
+    }
 }
