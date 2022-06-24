@@ -425,3 +425,6 @@ Caused by: java.sql.SQLException: Parameter index out of range (3 > number of pa
 	at org.apache.ibatis.type.StringTypeHandler.setNonNullParameter(StringTypeHandler.java:26)
 	at org.apache.ibatis.type.BaseTypeHandler.setParameter(BaseTypeHandler.java:73)
 	... 63 common frames omitted
+[2022-06-22 17:31:01.257] [main] [ERROR] com.sunova.psinfo.conponment.SpringTaskJob - 更新微信通讯录密钥失败，联系管理员查明原因！
+[2022-06-22 17:31:01.533] [main] [ERROR] com.sunova.psinfo.conponment.SpringTaskJob - 更新钉钉通讯录密钥失败，联系管理员查明原因！
+[2022-06-22 17:31:01.718] [main] [ERROR] com.sunova.psinfo.conponment.SpringTaskJob - 更新钉钉域控密钥失败，联系管理员查明原因！

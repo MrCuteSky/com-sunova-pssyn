@@ -23,15 +23,16 @@ public class SpringTaskJob {
     @PostConstruct
     @Scheduled(cron = "0 0 0/1 * * ?")
     public void get_dd_access_key(){
+        //i=1为插入信息 i=2为删除并更新
         logger.info("******更新钉钉通讯录密钥定时任务开始执行******");
         int i = dingTalkService.update_access_key(Context.DD_Contacts_Appkey,Context.DD_Contacts_Appsecret,Context.DD_Contacts);
-        if(i!=1){
+        if(i!=1&&i!=2){
             logger.error("更新钉钉通讯录密钥失败，联系管理员查明原因！");
         }else {
             logger.info("******更新钉钉通讯录密钥成功******");
         }
         int j = dingTalkService.update_access_key(Context.DD_AD_Appkey,Context.DD_AD_Appsecret,Context.DD_AD);
-        if(j!=1){
+        if(i!=1&&i!=2){
             logger.error("更新钉钉域控密钥失败，联系管理员查明原因！");
         }else {
             logger.info("******更新钉钉域控密钥成功******");
@@ -43,7 +44,7 @@ public class SpringTaskJob {
     public void get_wc_access_key(){
         logger.info("******更新微信通讯录密钥定时任务开始执行******");
         int i = weChatService.update_access_key();
-        if(i!=1){
+        if(i!=1&&i!=2){
             logger.error("更新微信通讯录密钥失败，联系管理员查明原因！");
         }else {
             logger.info("******更新微信通讯录密钥成功******");

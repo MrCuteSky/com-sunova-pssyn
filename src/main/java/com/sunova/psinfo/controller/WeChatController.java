@@ -39,5 +39,15 @@ public class WeChatController {
         }
     }
 
+    @GetMapping("/wechat/empolyee/init/database")
+    public void updateEmpDb(){
+        String access_token = weChatService.get_access_token();
+        weChatService.init_Database_Employee_Wc(access_token);
+    }
 
+    @GetMapping("/wechat/dept/init/database")
+    public void updateDepDb(){
+        String access_token = weChatService.get_access_token();
+        weChatService.init_Database_Dept_Wc(access_token);
+    }
 }

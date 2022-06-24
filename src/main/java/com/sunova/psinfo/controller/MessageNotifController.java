@@ -27,6 +27,7 @@ public class MessageNotifController {
     private final String APP_KEY = "dingdrkpfra6xlucvtl2";
 
     @PostMapping("/dingTalkCallBack")
+//    @PostMapping("/dingTalkCallBack")
     public Map<String, String> dingTalkCallBack (
             @RequestParam(value = "msg_signature", required = false) String msg_signature,
             @RequestParam(value = "timestamp", required = false) String timeStamp,

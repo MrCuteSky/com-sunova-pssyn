@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sunova.psinfo.mapper.EmployeeShrMapper">
+
+    <update id="truncateTable">
+        truncate table employee_shr
+    </update>
+
+    <delete id="cleanTable">
+        delete from employee_shr
+    </delete>
+
+    <insert id="insertTable" parameterType="com.sunova.psinfo.entities.Employee_Shr">
+        REPLACE into employee_shr value(#{loginid},#{fnumber},#{username},#{sex},#{email},#{address},#{dept_id},#{status},#{birthday},#{passportNO},#{homephone},
+        #{descn},#{easuser_id},#{nation_number},#{empType_number},#{folk_number},#{eas_loginid},#{jobStartDate},#{idCardNO},#{mobile},#{formalDate},#{joinGroupDate},
+        #{flastUpdateTime},#{folk_name},#{nation_name},#{enterDate},#{fcreateTime},#{empType_name},#{org_number},#{officephone})
+    </insert>
+</mapper>

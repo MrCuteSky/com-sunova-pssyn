@@ -8,4 +8,10 @@ public interface ShrService {
 
     //获取部门信息
     public JSONArray get_dept(String fileName) throws Exception;
+
+    //清空并更新数据库(人员)
+    public void init_Database_Employee_Shr(String fileName) throws Exception;
+
+    //清空并更新数据库(部门)
+    public void init_Database_Dept_Shr(String fileName) throws Exception;
 }

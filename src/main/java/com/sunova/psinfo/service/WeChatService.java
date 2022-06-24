@@ -12,7 +12,15 @@ public interface WeChatService {
     //从数据库中获取access_key
     public String get_access_token();
 
+    //获取部门信息
     public JSONArray get_department(String access_token);
 
+    //获取人员信息
     public List<Employee_Wc> get_per_detail(String access_token);
+
+    //清空并更新数据库(人员)
+    public void init_Database_Employee_Wc(String access_token);
+
+    //清空并更新数据库(部门)
+    public void init_Database_Dept_Wc(String access_token);
 }

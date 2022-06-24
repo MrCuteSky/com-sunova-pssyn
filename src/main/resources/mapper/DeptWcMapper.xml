@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sunova.psinfo.mapper.DeptWcMapper">
+
+    <update id="truncateTable">
+        truncate table dept_wc
+    </update>
+
+    <delete id="cleanTable">
+        delete from dept_wc
+    </delete>
+
+    <insert id="insertTable" parameterType="com.sunova.psinfo.entities.Dept_Wc">
+        REPLACE into dept_wc value(#{id},#{name},#{parentid})
+    </insert>
+</mapper>

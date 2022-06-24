@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sunova.psinfo.mapper.DeptShrMapper">
+
+    <update id="truncateTable">
+        truncate table dept_shr
+    </update>
+
+    <delete id="cleanTable">
+        delete from dept_shr
+    </delete>
+
+    <insert id="insertTable" parameterType="com.sunova.psinfo.entities.Dept_Shr">
+        REPLACE into dept_shr value(#{easdept_id},#{name},#{fnumber},#{superior},#{supname})
+    </insert>
+</mapper>

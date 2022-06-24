@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sunova.psinfo.mapper.EmployeeDtMapper">
+
+    <update id="truncateTable">
+        truncate table employee_dt
+    </update>
+
+    <delete id="cleanTable">
+        delete from employee_dt
+    </delete>
+
+    <insert id="insertTable" parameterType="com.sunova.psinfo.entities.Employee_Dt">
+        REPLACE into employee_dt value(#{userid},#{unionid},#{job_number},#{name},#{mobile},#{email},#{hide_mobile},#{boss},#{extension},#{exclusive_account},#{manager_userid},
+        #{active},#{admin},#{avatar},#{hired_data},#{senior},#{work_place},#{dept_order_list},#{real_authed},#{dept_id_list},#{state_code},#{leader_in_dept})
+    </insert>
+</mapper>

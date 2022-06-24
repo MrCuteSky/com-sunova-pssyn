@@ -47,4 +47,22 @@ public class ShrController {
             return new CommonResult(402,e.getMessage()).toString();
         }
     }
+
+    @GetMapping("/shr/empolyee/init/database/{filename}")
+    public void updateEmpDb(@PathVariable("filename") String filename){
+        try {
+            shrService.init_Database_Employee_Shr(filename);
+        } catch (Exception e) {
+            logger.error("*****更新Shr人员信息数据库出错*****",e);
+        }
+    }
+
+    @GetMapping("/shr/dept/init/database/{filename}")
+    public void updateDepDb(@PathVariable("filename") String filename){
+        try {
+            shrService.init_Database_Dept_Shr(filename);
+        } catch (Exception e) {
+            logger.error("*****更新Shr部门信息数据库出错*****",e);
+        }
+    }
 }

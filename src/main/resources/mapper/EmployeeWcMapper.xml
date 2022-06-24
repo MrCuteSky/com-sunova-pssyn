@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sunova.psinfo.mapper.EmployeeWcMapper">
+
+    <update id="truncateTable">
+        truncate table employee_wc
+    </update>
+
+    <delete id="cleanTable">
+        delete from employee_wc
+    </delete>
+
+    <insert id="insertTable" parameterType="com.sunova.psinfo.entities.Employee_Wc">
+        REPLACE into employee_wc value(#{userid},#{name},#{department},#{order},#{position},#{mobile},#{gender},#{email},#{biz_mail},#{is_leader_in_dept},#{direct_leader},
+        #{avatar},#{thumb_avatar},#{telephone},#{alias},#{status},#{address},#{english_name},#{open_userid},#{main_department},#{extattr},#{qr_code},#{external_position},#{external_profile})
+    </insert>
+</mapper>
