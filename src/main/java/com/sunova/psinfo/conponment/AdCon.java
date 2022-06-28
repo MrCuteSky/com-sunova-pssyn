@@ -68,7 +68,7 @@ public class AdCon {
             // 修改密码
             dc.modifyAttributes(attr.get().toString(), mods);
         } catch (Exception e) {
-            logger.warn("Problem resetting password: " + e.getMessage());
+            logger.error("Problem resetting password: " + e.getMessage());
             Exception err = new Exception("用户密码重置错误!");
             if(e.getMessage().contains("5003")) {
                 err = new Exception("密码违法策略要求");

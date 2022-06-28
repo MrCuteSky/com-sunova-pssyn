@@ -10,15 +10,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 public class DingTalkController {
@@ -43,21 +39,6 @@ public class DingTalkController {
             logger.error("*****员工信息获取失败:" + e.getMessage() + "*****",e);
             return new CommonResult(402,e.getMessage()).toString();
         }
-    }
-
-
-    //通过authCode获取userId
-    @PostMapping("/dingtalk/oa/modify/password")
-    public Map<String,Object> get_userIdbycode(@RequestBody Map params){
-        Map<String,Object> result = new HashMap<>();
-        Object o = params.get("authCode");
-        if(o==null){
-            result.put("code",300);
-            result.put("message","认证代码不可为空！");
-            return result;
-        }
-        logger.info("获取到的authCode：");
-        return null;
     }
 
     @GetMapping("/dingtalk/dept/init/database")
