@@ -1,0 +1,184 @@
+[2022-07-01 14:03:26.288] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 275180 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-07-01 14:03:26.290] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-07-01 14:03:27.046] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-07-01 14:03:27.059] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[2022-07-01 14:03:27.298] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff35091] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-07-01 14:03:27.502] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-07-01 14:03:27.517] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-07-01 14:03:27.518] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-07-01 14:03:27.582] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-07-01 14:03:27.582] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-07-01 14:03:27.582] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1254 ms
+[2022-07-01 14:03:27.991] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-07-01 14:03:27.992] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-07-01 14:03:28.245] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-07-01 14:03:28.285] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-07-01 14:03:28.955] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-07-01 14:03:29.014] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), c52d67405a9d319085d3f032f57ab3da(String)
+[2022-07-01 14:03:29.061] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-07-01 14:03:29.067] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-07-01 14:03:29.268] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-07-01 14:03:29.271] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 7c0b3b340d9f3f5497f8fc19fc11dd6e(String)
+[2022-07-01 14:03:29.274] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-07-01 14:03:29.276] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-07-01 14:03:29.277] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-07-01 14:03:29.726] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-07-01 14:03:29.726] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), -PWBRO9SVGXIFWP96QMYUleWAShULgNjQTkpd4GeSpaBu17HovBE4zF1ax6q4arl5aa8e03B7RT5CAkplH6_9iKDdsCKr9tDOwEEmfeJBeem6eeF87LnMijnbKyp1w08XVzuNqd52c6-PYTaEx42dLKt_pyw08CyW2XvogkZbYVghAoiRjbpmwVV1VsqHYs82ot_fvV92d5wf6ji2qvsuA(String)
+[2022-07-01 14:03:29.728] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-07-01 14:03:29.731] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-07-01 14:03:29.787] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-07-01 14:03:29.884] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-07-01 14:03:29.891] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-07-01 14:03:29.920] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 19 mappings in 'requestMappingHandlerMapping'
+[2022-07-01 14:03:29.928] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-07-01 14:03:29.933] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-07-01 14:03:30.080] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-07-01 14:03:30.092] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-07-01 14:03:30.141] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-07-01 14:03:30.144] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 4.177 seconds (JVM running for 4.723)
+[2022-07-01 14:03:30.568] [RMI TCP Connection(1)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-07-01 14:03:30.568] [RMI TCP Connection(1)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-07-01 14:03:30.568] [RMI TCP Connection(1)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-07-01 14:03:30.577] [RMI TCP Connection(1)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-07-01 14:03:30.577] [RMI TCP Connection(1)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+[2022-07-01 14:05:45.295] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-07-01 14:05:45.299] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-07-01 14:05:45.315] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=f685f54a1d1d3f298d9bd7020a56ae3b}]
+[2022-07-01 14:05:45.319] [http-nio-8888-exec-1] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：f685f54a1d1d3f298d9bd7020a56ae3b
+[2022-07-01 14:05:45.322] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-07-01 14:05:45.335] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-07-01 14:05:45.352] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-07-01 14:05:46.555] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-07-01 14:05:46.556] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-07-01 14:05:46.564] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-07-01 14:11:04.679] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-07-01 14:11:04.679] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-07-01 14:11:04.679] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=920ac26279b5346e9be457fd0606d1a3}]
+[2022-07-01 14:11:04.679] [http-nio-8888-exec-3] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：920ac26279b5346e9be457fd0606d1a3
+[2022-07-01 14:11:04.681] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-07-01 14:11:04.681] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-07-01 14:11:04.682] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-07-01 14:11:05.187] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-07-01 14:11:05.187] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-07-01 14:11:05.188] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-07-01 14:12:06.537] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-07-01 14:12:06.537] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-07-01 14:12:06.538] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=7943c9566bd53f14a365bf3e33347c3b}]
+[2022-07-01 14:12:06.538] [http-nio-8888-exec-5] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：7943c9566bd53f14a365bf3e33347c3b
+[2022-07-01 14:12:06.539] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-07-01 14:12:06.540] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-07-01 14:12:06.542] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-07-01 14:12:06.980] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-07-01 14:12:06.980] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-07-01 14:12:06.981] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-07-01 14:12:23.538] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-07-01 14:12:23.538] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-07-01 14:12:23.538] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=4f47dac09be43354b01c335a2e1ffb32}]
+[2022-07-01 14:12:23.539] [http-nio-8888-exec-4] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：4f47dac09be43354b01c335a2e1ffb32
+[2022-07-01 14:12:23.540] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-07-01 14:12:23.540] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-07-01 14:12:23.542] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-07-01 14:12:23.955] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-07-01 14:12:23.955] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-07-01 14:12:23.955] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-07-01 14:19:53.069] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-07-01 14:19:53.070] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-07-01 14:19:53.070] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=39f1ac6057cc301eb1d5ea919f5b4b11}]
+[2022-07-01 14:19:53.071] [http-nio-8888-exec-6] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：39f1ac6057cc301eb1d5ea919f5b4b11
+[2022-07-01 14:19:53.073] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-07-01 14:19:53.074] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-07-01 14:19:53.076] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-07-01 14:19:53.711] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-07-01 14:19:53.711] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-07-01 14:19:53.711] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-07-01 14:21:26.812] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-07-01 14:21:26.813] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-07-01 14:21:26.813] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=7e74148fbb293ac2b9d6be7b5db057cf}]
+[2022-07-01 14:21:26.813] [http-nio-8888-exec-7] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：7e74148fbb293ac2b9d6be7b5db057cf
+[2022-07-01 14:21:26.814] [http-nio-8888-exec-7] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-07-01 14:21:26.815] [http-nio-8888-exec-7] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-07-01 14:21:26.816] [http-nio-8888-exec-7] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-07-01 14:21:27.215] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-07-01 14:21:27.216] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-07-01 14:21:27.217] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-07-01 14:25:34.108] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-07-01 14:25:34.112] [http-nio-8888-exec-8] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-07-01 14:25:34.113] [http-nio-8888-exec-8] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-07-01 14:25:34.113] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-07-01 14:25:34.116] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-07-01 14:25:34.117] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2022-07-01 14:25:34.124] [http-nio-8888-exec-8] [DEBUG] o.s.w.servlet.view.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-07-01 14:25:34.130] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-07-01 14:26:27.271] [http-nio-8888-exec-10] [INFO ] org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2022-07-01 14:26:38.222] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-07-01 14:26:38.224] [http-nio-8888-exec-1] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-07-01 14:26:38.225] [http-nio-8888-exec-1] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-07-01 14:26:38.225] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-07-01 14:26:38.225] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-07-01 14:26:38.226] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2022-07-01 14:26:38.227] [http-nio-8888-exec-1] [DEBUG] o.s.w.servlet.view.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-07-01 14:26:38.227] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-07-01 14:29:04.278] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-07-01 14:29:04.279] [http-nio-8888-exec-3] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-07-01 14:29:04.279] [http-nio-8888-exec-3] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-07-01 14:29:04.279] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-07-01 14:29:04.280] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-07-01 14:29:04.281] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2022-07-01 14:29:04.282] [http-nio-8888-exec-3] [DEBUG] o.s.w.servlet.view.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-07-01 14:29:04.282] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-07-01 14:30:58.388] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+[2022-07-01 14:30:58.389] [http-nio-8888-exec-7] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[2022-07-01 14:30:58.401] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-07-01 14:31:17.842] [http-nio-8888-exec-9] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/static/image/star.png", parameters={}
+[2022-07-01 14:31:17.843] [http-nio-8888-exec-9] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-07-01 14:31:17.844] [http-nio-8888-exec-9] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-07-01 14:31:17.844] [http-nio-8888-exec-9] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-07-01 14:31:17.845] [http-nio-8888-exec-9] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-07-01 14:31:17.845] [http-nio-8888-exec-9] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2022-07-01 14:31:17.846] [http-nio-8888-exec-9] [DEBUG] o.s.w.servlet.view.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-07-01 14:31:17.846] [http-nio-8888-exec-9] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-07-01 14:31:17.853] [http-nio-8888-exec-10] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/static/image/star.png", parameters={}
+[2022-07-01 14:31:17.853] [http-nio-8888-exec-10] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-07-01 14:31:17.854] [http-nio-8888-exec-10] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-07-01 14:31:17.854] [http-nio-8888-exec-10] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-07-01 14:31:17.854] [http-nio-8888-exec-10] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-07-01 14:31:17.855] [http-nio-8888-exec-10] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2022-07-01 14:31:17.855] [http-nio-8888-exec-10] [DEBUG] o.s.w.servlet.view.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-07-01 14:31:17.856] [http-nio-8888-exec-10] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-07-01 14:31:17.874] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/static/image/star.png", parameters={}
+[2022-07-01 14:31:17.875] [http-nio-8888-exec-3] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-07-01 14:31:17.875] [http-nio-8888-exec-3] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-07-01 14:31:17.875] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-07-01 14:31:17.875] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-07-01 14:31:17.876] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2022-07-01 14:31:17.877] [http-nio-8888-exec-3] [DEBUG] o.s.w.servlet.view.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-07-01 14:31:17.877] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-07-01 14:31:17.886] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/static/image/star.png", parameters={}
+[2022-07-01 14:31:17.887] [http-nio-8888-exec-5] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-07-01 14:31:17.887] [http-nio-8888-exec-5] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-07-01 14:31:17.887] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-07-01 14:31:17.888] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-07-01 14:31:17.888] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2022-07-01 14:31:17.890] [http-nio-8888-exec-5] [DEBUG] o.s.w.servlet.view.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-07-01 14:31:17.891] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-07-01 14:53:28.936] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-07-01 14:53:28.937] [http-nio-8888-exec-8] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-07-01 14:53:28.937] [http-nio-8888-exec-8] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-07-01 14:53:28.937] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-07-01 14:53:28.937] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-07-01 14:53:28.938] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2022-07-01 14:53:28.948] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-07-01 14:53:28.948] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Fri Jul 01 14:53:28 CST 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2022-07-01 14:53:28.951] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404

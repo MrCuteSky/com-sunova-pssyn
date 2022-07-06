@@ -1,0 +1,755 @@
+[2022-06-29 09:38:39.178] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 361352 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-29 09:38:39.181] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-29 09:38:39.972] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-29 09:38:39.984] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[2022-06-29 09:38:40.225] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d67dc393] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-29 09:38:40.431] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-29 09:38:40.447] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-29 09:38:40.448] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-29 09:38:40.517] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-29 09:38:40.517] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-29 09:38:40.517] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1286 ms
+[2022-06-29 09:38:40.780] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-29 09:38:40.780] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-29 09:38:41.024] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 09:38:41.058] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-29 09:38:41.855] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 09:38:41.866] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), 2hte8NHErQsTYWikGi03GLdqbc1GgHVG-ofHZGnF3sAJNDSYWnKwcEzzHIVNa3YEqanZRFZ-NNWoFWluoDykAhF0PCO0gAOfxfXOuHNuSMIFpeLEgy5lLBy6Iz7w2RDZ3XsF1rDPwHeqh7X2wlf1fX3PcCGu_-AYJxMmr1WW3xxQ1ibAVfX-MggCa02MXORf-nlQC1MHy5bS8Ei5lw9hqQ(String)
+[2022-06-29 09:38:41.887] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-29 09:38:41.891] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 09:38:41.892] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 09:38:42.129] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 09:38:42.129] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), b9936149c7ae325a81daae1e26a71fab(String)
+[2022-06-29 09:38:42.132] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-29 09:38:42.135] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 09:38:42.325] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 09:38:42.327] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 6c139c91a33a3282b7843f8d0d920994(String)
+[2022-06-29 09:38:42.329] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-29 09:38:42.335] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 09:38:42.406] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-29 09:38:42.509] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-29 09:38:42.515] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-29 09:38:42.545] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 17 mappings in 'requestMappingHandlerMapping'
+[2022-06-29 09:38:42.557] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-29 09:38:42.564] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-29 09:38:42.710] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-29 09:38:42.721] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-29 09:38:42.770] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-29 09:38:42.771] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 4.07 seconds (JVM running for 4.838)
+[2022-06-29 09:38:42.851] [RMI TCP Connection(1)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-29 09:38:42.851] [RMI TCP Connection(1)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-29 09:38:42.851] [RMI TCP Connection(1)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-29 09:38:42.858] [RMI TCP Connection(1)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-29 09:38:42.858] [RMI TCP Connection(1)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+[2022-06-29 09:38:52.625] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-29 09:38:52.629] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-29 09:38:52.646] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=994561b305e839e4b231fb6750180bdc}]
+[2022-06-29 09:38:52.650] [http-nio-8888-exec-1] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：994561b305e839e4b231fb6750180bdc
+[2022-06-29 09:38:52.652] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-29 09:38:52.652] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-29 09:38:52.658] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-29 09:38:53.084] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 09:38:53.084] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-29 09:38:53.095] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-29 09:39:16.927] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-29 09:39:16.928] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-29 09:39:16.928] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=a41957b6ec813695b6ae7bbce3e69d21}]
+[2022-06-29 09:39:16.929] [http-nio-8888-exec-2] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：a41957b6ec813695b6ae7bbce3e69d21
+[2022-06-29 09:39:16.930] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-29 09:39:16.930] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-29 09:39:16.930] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-29 09:39:17.346] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 09:39:17.346] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-29 09:39:17.346] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-29 09:44:26.320] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-29 09:44:26.320] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-29 09:44:26.321] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=66ad2725f5d23071a10c7f3e53ce57ae}]
+[2022-06-29 09:44:26.321] [http-nio-8888-exec-3] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：66ad2725f5d23071a10c7f3e53ce57ae
+[2022-06-29 09:44:26.326] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-29 09:44:26.326] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-29 09:44:26.327] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-29 09:44:26.767] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 09:44:26.767] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-29 09:44:26.768] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-29 09:45:52.963] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-29 09:45:52.964] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-29 09:45:52.965] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=48c72f9811903b189a8ca275e4c2c1e6}]
+[2022-06-29 09:45:52.965] [http-nio-8888-exec-4] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：48c72f9811903b189a8ca275e4c2c1e6
+[2022-06-29 09:45:52.966] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-29 09:45:52.966] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-29 09:45:52.967] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-29 09:45:53.392] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 09:45:53.392] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-29 09:45:53.394] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-29 09:47:09.518] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-29 09:47:09.519] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-29 09:47:09.519] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=38d6ea8410023640a18dc7aad22d1066}]
+[2022-06-29 09:47:09.519] [http-nio-8888-exec-5] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：38d6ea8410023640a18dc7aad22d1066
+[2022-06-29 09:47:09.520] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-29 09:47:09.522] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-29 09:47:09.523] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-29 09:47:09.958] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 09:47:09.958] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-29 09:47:09.958] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-29 09:47:34.743] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-29 09:47:34.743] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-29 09:47:34.743] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=7b54ba0df2f0381f9c3c3aa756b1458d}]
+[2022-06-29 09:47:34.743] [http-nio-8888-exec-6] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：7b54ba0df2f0381f9c3c3aa756b1458d
+[2022-06-29 09:47:34.744] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-29 09:47:34.744] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-29 09:47:34.745] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-29 09:47:35.151] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 09:47:35.151] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-29 09:47:35.152] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-29 12:27:06.745] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 441440 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-29 12:27:06.746] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-29 12:27:07.454] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-29 12:27:07.467] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[2022-06-29 12:27:07.706] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$455ad2f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-29 12:27:07.902] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-29 12:27:07.918] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-29 12:27:07.918] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-29 12:27:07.988] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-29 12:27:07.989] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-29 12:27:07.989] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1210 ms
+[2022-06-29 12:27:08.248] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-29 12:27:08.248] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-29 12:27:08.458] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 12:27:08.495] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-29 12:27:09.088] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 12:27:09.098] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 12:27:09.106] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-29 12:27:09.111] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 12:27:09.298] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 12:27:09.299] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 12:27:09.300] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-29 12:27:09.303] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 12:27:09.303] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 12:27:09.753] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 12:27:09.754] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), H5i9oFDVAuNByRVc7I1DP2mir6kuk9KMas5ngiuOSXfinGVJ4tnrKbEW1jBr9PYcwpZvDpe04IzX_w7roJ5s0V2WKBBX8rAiB-gBxW_rto2JODlReoisQJT-nOFzQw-4njmAB7e7XF7g_czt7tWy_5vqthz7ok9U5YygaS-AjPxsVT4yclfHuCTK9fjYtEOfbJUOoKnB30-HIWJRG3zbZw(String)
+[2022-06-29 12:27:09.756] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-29 12:27:09.763] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 12:27:09.874] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-29 12:27:10.051] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-29 12:27:10.062] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-29 12:27:10.120] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 17 mappings in 'requestMappingHandlerMapping'
+[2022-06-29 12:27:10.132] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-29 12:27:10.141] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-29 12:27:10.323] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-29 12:27:10.337] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-29 12:27:10.390] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-29 12:27:10.392] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 3.97 seconds (JVM running for 4.474)
+[2022-06-29 12:27:10.724] [RMI TCP Connection(3)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-29 12:27:10.724] [RMI TCP Connection(3)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-29 12:27:10.724] [RMI TCP Connection(3)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-29 12:27:10.730] [RMI TCP Connection(3)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-29 12:27:10.731] [RMI TCP Connection(3)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+[2022-06-29 12:41:20.857] [http-nio-8888-exec-2] [INFO ] org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2022-06-29 12:41:23.089] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-06-29 12:41:23.094] [http-nio-8888-exec-3] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-29 12:41:23.095] [http-nio-8888-exec-3] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-29 12:41:23.095] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-29 12:41:23.101] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-06-29 12:41:23.102] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2022-06-29 12:41:23.114] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 12:41:23.115] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Wed Jun 29 12:41:23 CST 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2022-06-29 12:41:23.125] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-29 12:41:23.627] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-06-29 12:41:23.628] [http-nio-8888-exec-5] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-29 12:41:23.628] [http-nio-8888-exec-5] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-29 12:41:23.628] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-29 12:41:23.628] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-06-29 12:41:23.629] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2022-06-29 12:41:23.629] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 12:41:23.629] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Wed Jun 29 12:41:23 CST 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2022-06-29 12:41:23.630] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-29 12:59:59.979] [timetask2] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 12:59:59.987] [timetask1] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 13:00:00.199] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 13:00:00.199] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 13:00:00.201] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 13:00:00.204] [timetask2] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 13:00:00.284] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 13:00:00.285] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), H5i9oFDVAuNByRVc7I1DP2mir6kuk9KMas5ngiuOSXfinGVJ4tnrKbEW1jBr9PYcwpZvDpe04IzX_w7roJ5s0V2WKBBX8rAiB-gBxW_rto2JODlReoisQJT-nOFzQw-4njmAB7e7XF7g_czt7tWy_5vqthz7ok9U5YygaS-AjPxsVT4yclfHuCTK9fjYtEOfbJUOoKnB30-HIWJRG3zbZw(String)
+[2022-06-29 13:00:00.289] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 13:00:00.293] [timetask1] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 13:00:00.416] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 13:00:00.416] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 13:00:00.418] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 13:00:00.420] [timetask2] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 13:47:22.163] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/shr/dept/init/database/dept_2022_6_16.json", parameters={}
+[2022-06-29 13:47:22.171] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.sunova.psinfo.controller.ShrController.updateDepDb(java.lang.String)
+[2022-06-29 13:47:22.250] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.cleanTable - ==>  Preparing: delete from dept_shr
+[2022-06-29 13:47:22.250] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.cleanTable - ==> Parameters: 
+[2022-06-29 13:47:22.268] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.cleanTable - <==    Updates: 18
+[2022-06-29 13:47:22.269] [http-nio-8888-exec-8] [INFO ] com.sunova.psinfo.service.Impl.ShrServiceImpl - *****清空dept_shr,共18条数据*****
+[2022-06-29 13:47:22.269] [http-nio-8888-exec-8] [INFO ] com.sunova.psinfo.service.Impl.ShrServiceImpl - *****开始更新Shr部门信息数据库*****
+[2022-06-29 13:47:22.396] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==>  Preparing: REPLACE into dept_shr value(?,?,?,?,?)
+[2022-06-29 13:47:22.399] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABAthbDM567U(String), 星诺场地物料管理中心(String), 0300000017(String), mEcAAAAABGLM567U(String), 徐州万邦金桥制药有限公司(String)
+[2022-06-29 13:47:22.400] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABAtkljM567U(String), 星诺场地生产部(String), 0300000018(String), mEcAAAAABGLM567U(String), 徐州万邦金桥制药有限公司(String)
+[2022-06-29 13:47:22.400] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABTJIkvM567U(String), 星诺场地质量部(String), 0300000021(String), mEcAAAAABGLM567U(String), 徐州万邦金桥制药有限公司(String)
+[2022-06-29 13:47:22.400] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String), 230000(String), 00000000-0000-0000-0000-000000000000CCE7AED4(String), 万邦医药集团(String)
+[2022-06-29 13:47:22.402] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: qjeBrHRyQ0qzCU/5StqQQMznrtQ=(String), 总经理室(String), 23000001(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.402] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: 2frvkKkdTIuj4u3l8Jiy2cznrtQ=(String), 工程技术中心(String), 23000003(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.403] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV7mvM567U(String), 工艺技术部(String), 2300000005(String), 2frvkKkdTIuj4u3l8Jiy2cznrtQ=(String), 工程技术中心(String)
+[2022-06-29 13:47:22.403] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV7onM567U(String), 合规注册部(String), 2300000006(String), 2frvkKkdTIuj4u3l8Jiy2cznrtQ=(String), 工程技术中心(String)
+[2022-06-29 13:47:22.403] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV7q3M567U(String), 项目管理部(String), 2300000007(String), 2frvkKkdTIuj4u3l8Jiy2cznrtQ=(String), 工程技术中心(String)
+[2022-06-29 13:47:22.404] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV7s7M567U(String), 技术转移部(String), 2300000008(String), 2frvkKkdTIuj4u3l8Jiy2cznrtQ=(String), 工程技术中心(String)
+[2022-06-29 13:47:22.404] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: fjC5Mj+NTCS3+/PO99hTtsznrtQ=(String), 工程部(String), 23000004(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.404] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: SSDMARWnQOuOFAlJwI2UwsznrtQ=(String), 生产部(String), 23000005(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.405] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAAA2K1NnM567U(String), 生产部办公室(String), 2300000002(String), SSDMARWnQOuOFAlJwI2UwsznrtQ=(String), 生产部(String)
+[2022-06-29 13:47:22.405] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAAA2K1PXM567U(String), 生产一车间(String), 2300000003(String), SSDMARWnQOuOFAlJwI2UwsznrtQ=(String), 生产部(String)
+[2022-06-29 13:47:22.405] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABTNaPnM567U(String), 多功能车间(String), 2300000017(String), SSDMARWnQOuOFAlJwI2UwsznrtQ=(String), 生产部(String)
+[2022-06-29 13:47:22.406] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: ke3bjEVOSSSfyES63j1YD8znrtQ=(String), 质量部(String), 23000006(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.407] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV7xXM567U(String), QA管理中心(String), 2300000009(String), ke3bjEVOSSSfyES63j1YD8znrtQ=(String), 质量部(String)
+[2022-06-29 13:47:22.407] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV70rM567U(String), QC检测中心(String), 2300000010(String), ke3bjEVOSSSfyES63j1YD8znrtQ=(String), 质量部(String)
+[2022-06-29 13:47:22.407] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: l5t2Ol0BSqWey8ul5DhEs8znrtQ=(String), EHS部(String), 23000007(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.407] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: vQVuUidOSgm8xmahBS5lqsznrtQ=(String), 财务部(String), 23000009(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.418] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: OggjRPx4RL2ByrC/mvHUtMznrtQ=(String), 人资行政部(String), 23000010(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.419] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: PIPRVpvERB2QSOdXTme4ZsznrtQ=(String), 内控部(String), 23000012(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.419] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: zZPr2G+WRTK+WmRnZ78QWsznrtQ=(String), 综合事务部(String), 23000013(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.420] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: Z3Xrd7MPS8e0wr+QDVNhQsznrtQ=(String), 费用报销(String), 23000014(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.420] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAAA0X2sXM567U(String), 信息管理部(String), 23000015(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.420] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAAA4X5v7M567U(String), 供应链部(String), 23000016(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.420] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV7+3M567U(String), 采购部(String), 2300000014(String), mEcAAA4X5v7M567U(String), 供应链部(String)
+[2022-06-29 13:47:22.420] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV8AnM567U(String), 物料管理中心(String), 2300000015(String), mEcAAA4X5v7M567U(String), 供应链部(String)
+[2022-06-29 13:47:22.421] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV723M567U(String), 维修保障部(String), 23000017(String), Gm3/RSKTTiy+4BokqrxMZ8znrtQ=(String), 江苏星诺医药科技有限公司(String)
+[2022-06-29 13:47:22.421] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV753M567U(String), 工程设备中心(String), 2300000012(String), mEcAABGV723M567U(String), 维修保障部(String)
+[2022-06-29 13:47:22.421] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABGV77jM567U(String), 运行管理中心(String), 2300000013(String), mEcAABGV723M567U(String), 维修保障部(String)
+[2022-06-29 13:47:22.421] [http-nio-8888-exec-8] [DEBUG] com.sunova.psinfo.mapper.DeptShrMapper.insertTable - ==> Parameters: mEcAABJmze3M567U(String), 环保设施运行中心(String), 2300000016(String), mEcAABGV723M567U(String), 维修保障部(String)
+[2022-06-29 13:47:22.431] [http-nio-8888-exec-8] [INFO ] com.sunova.psinfo.service.Impl.ShrServiceImpl - *****更新Shr部门信息数据库成功*****
+[2022-06-29 13:47:22.438] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 13:47:22.439] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+[2022-06-29 13:47:22.439] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-29 14:25:02.188] [timetask1] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 14:25:02.188] [timetask3] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 14:25:02.432] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 14:25:02.433] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 14:25:02.435] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 14:25:02.438] [timetask3] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 14:25:02.498] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 14:25:02.499] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), H5i9oFDVAuNByRVc7I1DP2mir6kuk9KMas5ngiuOSXfinGVJ4tnrKbEW1jBr9PYcwpZvDpe04IzX_w7roJ5s0V2WKBBX8rAiB-gBxW_rto2JODlReoisQJT-nOFzQw-4njmAB7e7XF7g_czt7tWy_5vqthz7ok9U5YygaS-AjPxsVT4yclfHuCTK9fjYtEOfbJUOoKnB30-HIWJRG3zbZw(String)
+[2022-06-29 14:25:02.503] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 14:25:02.507] [timetask1] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 14:25:02.622] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 14:25:02.623] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 14:25:02.625] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 14:25:02.629] [timetask3] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 14:27:38.750] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-06-29 14:27:38.754] [http-nio-8888-exec-3] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-29 14:27:38.756] [http-nio-8888-exec-3] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-29 14:27:38.756] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-29 14:27:38.758] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-06-29 14:27:38.760] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2022-06-29 14:27:38.764] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 14:27:38.766] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Wed Jun 29 14:27:38 CST 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2022-06-29 14:27:38.769] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-29 14:27:39.194] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - OPTIONS "/", parameters={}
+[2022-06-29 14:27:39.195] [http-nio-8888-exec-4] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-29 14:27:39.195] [http-nio-8888-exec-4] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-29 14:27:39.195] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-29 14:27:39.220] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for OPTIONS "/error", parameters={}
+[2022-06-29 14:27:39.221] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2022-06-29 14:27:39.221] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 14:27:39.222] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Wed Jun 29 14:27:39 CST 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2022-06-29 14:27:39.222] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-29 14:27:39.655] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/nice%20ports%2C/Tri%6Eity.txt%2ebak", parameters={}
+[2022-06-29 14:27:39.656] [http-nio-8888-exec-5] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-29 14:27:39.677] [http-nio-8888-exec-5] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-29 14:27:39.677] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-29 14:27:39.678] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-06-29 14:27:39.678] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2022-06-29 14:27:39.679] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 14:27:39.679] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Wed Jun 29 14:27:39 CST 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2022-06-29 14:27:39.680] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-29 14:59:59.978] [timetask2] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 14:59:59.978] [timetask4] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 15:00:00.215] [timetask4] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 15:00:00.215] [timetask4] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 15:00:00.217] [timetask4] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 15:00:00.219] [timetask4] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 15:00:00.263] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 15:00:00.263] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), MFUZ5vEgm0Fl_VRVa1WTwUQQTIrzt50iKMdX6k1uat8bV3rAhw3MqQqw_L_VtJ38U2gAK4JpqLiJlagO1QJeJiRdu67pPvRF1tQCoDqDeQ4ORhb2IaeKlEa2_DETtz8WwUc2NjoKBi9MFjvYNxqk0iKRtO_pbvVb2uG4qLB_uqRxOkQAZAw0dtyfbeI8ZxTZ8nRydnVMJmOHFnIiB2SObg(String)
+[2022-06-29 15:00:00.265] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-29 15:00:00.267] [timetask2] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 15:00:00.400] [timetask4] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 15:00:00.401] [timetask4] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 15:00:00.401] [timetask4] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 15:00:00.403] [timetask4] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 15:41:01.548] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-06-29 15:41:01.553] [http-nio-8888-exec-7] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-29 15:41:01.553] [http-nio-8888-exec-7] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-29 15:41:01.554] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-29 15:41:01.556] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-06-29 15:41:01.557] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2022-06-29 15:41:01.562] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 15:41:01.563] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Wed Jun 29 15:41:01 CST 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2022-06-29 15:41:01.566] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-29 15:59:59.964] [timetask5] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 15:59:59.964] [timetask3] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 16:00:00.205] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 16:00:00.206] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 16:00:00.208] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 16:00:00.212] [timetask3] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 16:00:00.282] [timetask5] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 16:00:00.283] [timetask5] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), MFUZ5vEgm0Fl_VRVa1WTwUQQTIrzt50iKMdX6k1uat8bV3rAhw3MqQqw_L_VtJ38U2gAK4JpqLiJlagO1QJeJiRdu67pPvRF1tQCoDqDeQ4ORhb2IaeKlEa2_DETtz8WwUc2NjoKBi9MFjvYNxqk0iKRtO_pbvVb2uG4qLB_uqRxOkQAZAw0dtyfbeI8ZxTZ8nRydnVMJmOHFnIiB2SObg(String)
+[2022-06-29 16:00:00.284] [timetask5] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 16:00:00.286] [timetask5] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 16:00:00.386] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 16:00:00.387] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 16:00:00.389] [timetask3] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 16:00:00.391] [timetask3] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 16:21:53.109] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/dingtalk/dept/init/database", parameters={}
+[2022-06-29 16:21:53.114] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.sunova.psinfo.controller.DingTalkController.updateDepDb()
+[2022-06-29 16:21:53.173] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-29 16:21:53.175] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Contacts_dd(String)
+[2022-06-29 16:21:53.210] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-29 16:21:53.221] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.cleanTable - ==>  Preparing: delete from dept_dt
+[2022-06-29 16:21:53.222] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.cleanTable - ==> Parameters: 
+[2022-06-29 16:21:53.228] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.cleanTable - <==    Updates: 26
+[2022-06-29 16:21:53.229] [http-nio-8888-exec-2] [INFO ] com.sunova.psinfo.service.Impl.DingTalkServiceImpl - *****清空dept_dt,共26条数据*****
+[2022-06-29 16:21:53.229] [http-nio-8888-exec-2] [INFO ] com.sunova.psinfo.service.Impl.DingTalkServiceImpl - *****获取部门列表*****
+[2022-06-29 16:21:58.340] [http-nio-8888-exec-2] [INFO ] com.sunova.psinfo.service.Impl.DingTalkServiceImpl - *****开始获取全部部门信息*****
+[2022-06-29 16:22:03.533] [http-nio-8888-exec-2] [INFO ] com.sunova.psinfo.service.Impl.DingTalkServiceImpl - *****开始更新DD部门信息数据库*****
+[2022-06-29 16:22:03.534] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==>  Preparing: REPLACE into dept_dt value(?,?,?)
+[2022-06-29 16:22:03.535] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 1(String), 星诺医药(String), null
+[2022-06-29 16:22:03.535] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482019028(String), EHS部(String), 1(String)
+[2022-06-29 16:22:03.535] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482019029(String), 供应链部(String), 1(String)
+[2022-06-29 16:22:03.535] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 601010372(String), 物料管理中心(String), 482019029(String)
+[2022-06-29 16:22:03.535] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 600588376(String), 采购部(String), 482019029(String)
+[2022-06-29 16:22:03.535] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482019030(String), 财务部(String), 1(String)
+[2022-06-29 16:22:03.535] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482124023(String), 总经理室(String), 1(String)
+[2022-06-29 16:22:03.536] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482124022(String), 工程技术中心(String), 1(String)
+[2022-06-29 16:22:03.536] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 599837500(String), 技术转移部(String), 482124022(String)
+[2022-06-29 16:22:03.536] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 600739447(String), 工艺技术部(String), 482124022(String)
+[2022-06-29 16:22:03.536] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 601119345(String), 项目管理部(String), 482124022(String)
+[2022-06-29 16:22:03.536] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 600592329(String), 合规注册部(String), 482124022(String)
+[2022-06-29 16:22:03.536] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482019025(String), 质量部(String), 1(String)
+[2022-06-29 16:22:03.536] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 601079342(String), QA管理中心(String), 482019025(String)
+[2022-06-29 16:22:03.536] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 601274335(String), QC检测中心(String), 482019025(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 481693180(String), 生产部(String), 1(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482507036(String), 生产部办公室(String), 481693180(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482530056(String), 生产一车间(String), 481693180(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 658199874(String), 多功能车间(String), 481693180(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482019026(String), 人资行政部(String), 1(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482019027(String), 信息管理部(String), 1(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 537612061(String), 维修保障部(String), 1(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 600210521(String), 运行管理中心(String), 537612061(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 601491218(String), 工程设备中心(String), 537612061(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 600206419(String), 环保设施运行中心(String), 537612061(String)
+[2022-06-29 16:22:03.549] [http-nio-8888-exec-2] [DEBUG] com.sunova.psinfo.mapper.DeptDtMapper.insertTable - ==> Parameters: 482124024(String), 工程部(String), 1(String)
+[2022-06-29 16:22:03.555] [http-nio-8888-exec-2] [INFO ] com.sunova.psinfo.service.Impl.DingTalkServiceImpl - *****更新DD部门信息数据库成功*****
+[2022-06-29 16:22:03.559] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 16:22:03.559] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+[2022-06-29 16:22:03.559] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-29 16:22:12.916] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+[2022-06-29 16:22:12.918] [http-nio-8888-exec-3] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[2022-06-29 16:22:12.924] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+[2022-06-29 16:24:46.011] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/404/search_children.js", parameters={}
+[2022-06-29 16:24:46.011] [http-nio-8888-exec-8] [INFO ] org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2022-06-29 16:24:46.012] [http-nio-8888-exec-6] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-29 16:24:46.013] [http-nio-8888-exec-6] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-29 16:24:46.014] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-29 16:24:46.014] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-06-29 16:24:46.015] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2022-06-29 16:24:46.015] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 16:24:46.016] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Wed Jun 29 16:24:46 CST 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2022-06-29 16:24:46.018] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-29 16:25:17.820] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 438560 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-29 16:25:17.822] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-29 16:25:18.652] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-29 16:25:18.663] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+[2022-06-29 16:25:18.899] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3650c850] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-29 16:25:19.092] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-29 16:25:19.107] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-29 16:25:19.107] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-29 16:25:19.175] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-29 16:25:19.175] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-29 16:25:19.175] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1318 ms
+[2022-06-29 16:25:19.461] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-29 16:25:19.462] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-29 16:25:19.681] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 16:25:19.720] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-29 16:25:20.261] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 16:25:20.321] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 16:25:20.326] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 16:25:20.331] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 16:25:20.511] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 16:25:20.514] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 16:25:20.518] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 16:25:20.522] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 16:25:20.522] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 16:25:20.899] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 16:25:20.900] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), MFUZ5vEgm0Fl_VRVa1WTwUQQTIrzt50iKMdX6k1uat8bV3rAhw3MqQqw_L_VtJ38U2gAK4JpqLiJlagO1QJeJiRdu67pPvRF1tQCoDqDeQ4ORhb2IaeKlEa2_DETtz8WwUc2NjoKBi9MFjvYNxqk0iKRtO_pbvVb2uG4qLB_uqRxOkQAZAw0dtyfbeI8ZxTZ8nRydnVMJmOHFnIiB2SObg(String)
+[2022-06-29 16:25:20.902] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 16:25:20.904] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 16:25:20.953] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-29 16:25:21.055] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-29 16:25:21.062] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-29 16:25:21.094] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 17 mappings in 'requestMappingHandlerMapping'
+[2022-06-29 16:25:21.101] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-29 16:25:21.108] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-29 16:25:21.267] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-29 16:25:21.279] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-29 16:25:21.332] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-29 16:25:21.334] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 3.858 seconds (JVM running for 4.41)
+[2022-06-29 16:25:21.708] [RMI TCP Connection(2)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-29 16:25:21.708] [RMI TCP Connection(2)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-29 16:25:21.709] [RMI TCP Connection(2)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-29 16:25:21.714] [RMI TCP Connection(2)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-29 16:25:21.714] [RMI TCP Connection(2)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[2022-06-29 17:00:00.002] [timetask2] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 17:00:00.010] [timetask1] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 17:00:00.282] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:00:00.286] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 17:00:00.292] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:00:00.295] [timetask1] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 17:00:00.346] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:00:00.347] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), GZ8e_kgKY9x7-dljLvDVYj5F2t5v3p0HhHzOjbepBkbboVNuOUxFPWk3ooXuDrVpF3oN7EconwMW-Nok4UQKPACcI4vdTkIkHbmH26LEvGdAOY9Ki3-kvKls3QN9UFo5zhN17tx7I_hhc8HpQolsYm5WSprU4DDhoMDb9LIqCyTbL0Vm053orn1RzrXAiykmQmU9pam7swHJmoeLir3p8g(String)
+[2022-06-29 17:00:00.351] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-29 17:00:00.354] [timetask2] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 17:00:00.478] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:00:00.479] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 17:00:00.482] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:00:00.485] [timetask1] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 17:34:12.937] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 575360 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-29 17:34:12.939] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-29 17:34:13.745] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-29 17:34:13.756] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+[2022-06-29 17:34:14.003] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13ec0621] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-29 17:34:14.201] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-29 17:34:14.216] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-29 17:34:14.217] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-29 17:34:14.284] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-29 17:34:14.284] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-29 17:34:14.284] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1302 ms
+[2022-06-29 17:34:14.576] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-29 17:34:14.576] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-29 17:34:14.726] [main] [WARN ] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springTaskJob': Unsatisfied dependency expressed through field 'dingTalkService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dingTalkServiceImpl': Unsatisfied dependency expressed through field 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\IdeaProject\com-sunova-pssyn\target\classes\mapper\EmployeeDtMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 22; columnNumber: 154; 元素内容必须由格式正确的字符数据或标记组成。
+[2022-06-29 17:34:14.726] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+[2022-06-29 17:34:14.728] [main] [INFO ] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+[2022-06-29 17:34:14.744] [main] [INFO ] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022-06-29 17:34:14.749] [main] [ERROR] org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springTaskJob': Unsatisfied dependency expressed through field 'dingTalkService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dingTalkServiceImpl': Unsatisfied dependency expressed through field 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\IdeaProject\com-sunova-pssyn\target\classes\mapper\EmployeeDtMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 22; columnNumber: 154; 元素内容必须由格式正确的字符数据或标记组成。
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.sunova.psinfo.PsInfoApplication.main(PsInfoApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dingTalkServiceImpl': Unsatisfied dependency expressed through field 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\IdeaProject\com-sunova-pssyn\target\classes\mapper\EmployeeDtMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 22; columnNumber: 154; 元素内容必须由格式正确的字符数据或标记组成。
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\IdeaProject\com-sunova-pssyn\target\classes\mapper\EmployeeDtMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 22; columnNumber: 154; 元素内容必须由格式正确的字符数据或标记组成。
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 37 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\IdeaProject\com-sunova-pssyn\target\classes\mapper\EmployeeDtMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 22; columnNumber: 154; 元素内容必须由格式正确的字符数据或标记组成。
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 50 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\IdeaProject\com-sunova-pssyn\target\classes\mapper\EmployeeDtMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 22; columnNumber: 154; 元素内容必须由格式正确的字符数据或标记组成。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$46c05751.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$46c05751$$FastClassBySpringCGLIB$$bce5ed9b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$46c05751.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 51 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 22; columnNumber: 154; 元素内容必须由格式正确的字符数据或标记组成。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:263)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:81)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 64 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素内容必须由格式正确的字符数据或标记组成。
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.startOfMarkup(XMLDocumentFragmentScannerImpl.java:2589)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2679)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:261)
+	... 67 common frames omitted
+[2022-06-29 17:34:59.886] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 572628 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-29 17:34:59.888] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-29 17:35:00.821] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-29 17:35:00.832] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+[2022-06-29 17:35:01.065] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$480ade27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-29 17:35:01.236] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-29 17:35:01.250] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-29 17:35:01.250] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-29 17:35:01.327] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-29 17:35:01.327] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-29 17:35:01.327] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1401 ms
+[2022-06-29 17:35:01.591] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-29 17:35:01.591] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-29 17:35:01.791] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 17:35:01.831] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-29 17:35:02.494] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:35:02.554] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), GZ8e_kgKY9x7-dljLvDVYj5F2t5v3p0HhHzOjbepBkbboVNuOUxFPWk3ooXuDrVpF3oN7EconwMW-Nok4UQKPACcI4vdTkIkHbmH26LEvGdAOY9Ki3-kvKls3QN9UFo5zhN17tx7I_hhc8HpQolsYm5WSprU4DDhoMDb9LIqCyTbL0Vm053orn1RzrXAiykmQmU9pam7swHJmoeLir3p8g(String)
+[2022-06-29 17:35:02.558] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:35:02.562] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 17:35:02.562] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 17:35:02.962] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:35:02.963] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 17:35:02.965] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:35:02.968] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 17:35:03.158] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:35:03.159] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 17:35:03.160] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:35:03.163] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 17:35:03.219] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-29 17:35:03.325] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-29 17:35:03.332] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-29 17:35:03.360] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+[2022-06-29 17:35:03.368] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-29 17:35:03.374] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-29 17:35:03.524] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-29 17:35:03.534] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-29 17:35:03.589] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-29 17:35:03.591] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 3.98 seconds (JVM running for 4.408)
+[2022-06-29 17:35:04.005] [RMI TCP Connection(1)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-29 17:35:04.005] [RMI TCP Connection(1)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-29 17:35:04.006] [RMI TCP Connection(1)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-29 17:35:04.012] [RMI TCP Connection(1)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-29 17:35:04.012] [RMI TCP Connection(1)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+[2022-06-29 17:35:38.284] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 576232 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-29 17:35:38.286] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-29 17:35:39.021] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-29 17:35:39.032] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[2022-06-29 17:35:39.266] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3650c850] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-29 17:35:39.438] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-29 17:35:39.451] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-29 17:35:39.452] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-29 17:35:39.510] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-29 17:35:39.511] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-29 17:35:39.511] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1193 ms
+[2022-06-29 17:35:39.830] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-29 17:35:39.831] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-29 17:35:40.055] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 17:35:40.105] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-29 17:35:40.566] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:35:40.633] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 17:35:40.636] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:35:40.640] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 17:35:40.815] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:35:40.816] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 17:35:40.818] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:35:40.821] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 17:35:40.821] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 17:35:41.173] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:35:41.173] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), GZ8e_kgKY9x7-dljLvDVYj5F2t5v3p0HhHzOjbepBkbboVNuOUxFPWk3ooXuDrVpF3oN7EconwMW-Nok4UQKPACcI4vdTkIkHbmH26LEvGdAOY9Ki3-kvKls3QN9UFo5zhN17tx7I_hhc8HpQolsYm5WSprU4DDhoMDb9LIqCyTbL0Vm053orn1RzrXAiykmQmU9pam7swHJmoeLir3p8g(String)
+[2022-06-29 17:35:41.175] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:35:41.178] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 17:35:41.237] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-29 17:35:41.346] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-29 17:35:41.353] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-29 17:35:41.384] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+[2022-06-29 17:35:41.392] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-29 17:35:41.400] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-29 17:35:41.545] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-29 17:35:41.556] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-29 17:35:41.605] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-29 17:35:41.608] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 3.586 seconds (JVM running for 4.122)
+[2022-06-29 17:35:41.840] [RMI TCP Connection(2)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-29 17:35:41.841] [RMI TCP Connection(2)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-29 17:35:41.841] [RMI TCP Connection(2)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-29 17:35:41.849] [RMI TCP Connection(2)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-29 17:35:41.849] [RMI TCP Connection(2)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+[2022-06-29 17:35:56.262] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/update/dingtalk", parameters={}
+[2022-06-29 17:35:56.269] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.sunova.psinfo.controller.UpdatePerController.UpdateDingTalk()
+[2022-06-29 17:35:56.284] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.EmployeeDtMapper.getNewInsertInfo - ==>  Preparing: select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile,shr_left.fnumber as job_number,CONCAT('\"',GROUP_CONCAT(dept_dt.dept_id),'\"') as department,posi.name as title,shr_left.email as email,shr_left.address as address from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left left join positionrel_shr rel on shr_left.easuser_id = rel.user_id left join position_shr posi on rel.position_id = posi.eas_id left join dept_shr dept on shr_left.dept_id = dept.easdept_id left join dept_dt on dept.name = dept_dt.name group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.email,shr_left.address
+[2022-06-29 17:35:56.314] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.EmployeeDtMapper.getNewInsertInfo - ==> Parameters: 
+[2022-06-29 17:35:56.336] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.EmployeeDtMapper.getNewInsertInfo - <==      Total: 7
+[2022-06-29 17:35:56.349] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 17:35:56.349] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+[2022-06-29 17:35:56.349] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-29 17:36:20.097] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 576004 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-29 17:36:20.100] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-29 17:36:20.646] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-29 17:36:20.657] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[2022-06-29 17:36:20.898] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8917e33f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-29 17:36:21.114] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-29 17:36:21.130] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-29 17:36:21.131] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-29 17:36:21.195] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-29 17:36:21.195] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-29 17:36:21.195] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1068 ms
+[2022-06-29 17:36:21.489] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-29 17:36:21.489] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-29 17:36:21.687] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 17:36:21.734] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-29 17:36:22.300] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:36:22.354] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 17:36:22.365] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:36:22.369] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 17:36:22.555] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:36:22.555] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 17:36:22.557] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:36:22.559] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 17:36:22.560] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 17:36:23.013] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:36:23.014] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), GZ8e_kgKY9x7-dljLvDVYj5F2t5v3p0HhHzOjbepBkbboVNuOUxFPWk3ooXuDrVpF3oN7EconwMW-Nok4UQKPACcI4vdTkIkHbmH26LEvGdAOY9Ki3-kvKls3QN9UFo5zhN17tx7I_hhc8HpQolsYm5WSprU4DDhoMDb9LIqCyTbL0Vm053orn1RzrXAiykmQmU9pam7swHJmoeLir3p8g(String)
+[2022-06-29 17:36:23.016] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:36:23.019] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 17:36:23.128] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-29 17:36:23.216] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-29 17:36:23.223] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-29 17:36:23.254] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+[2022-06-29 17:36:23.262] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-29 17:36:23.268] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-29 17:36:23.448] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-29 17:36:23.462] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-29 17:36:23.528] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-29 17:36:23.530] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 3.817 seconds (JVM running for 5.097)
+[2022-06-29 17:36:23.987] [RMI TCP Connection(3)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-29 17:36:23.987] [RMI TCP Connection(3)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-29 17:36:23.987] [RMI TCP Connection(3)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-29 17:36:23.992] [RMI TCP Connection(3)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-29 17:36:23.992] [RMI TCP Connection(3)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[2022-06-29 17:36:28.536] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/update/dingtalk", parameters={}
+[2022-06-29 17:36:28.539] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.sunova.psinfo.controller.UpdatePerController.UpdateDingTalk()
+[2022-06-29 17:36:28.550] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.EmployeeDtMapper.getNewInsertInfo - ==>  Preparing: select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile,shr_left.fnumber as job_number,CONCAT('\"',GROUP_CONCAT(dept_dt.dept_id),'\"') as department,posi.name as title,shr_left.email as email,shr_left.address as address from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left left join positionrel_shr rel on shr_left.easuser_id = rel.user_id left join position_shr posi on rel.position_id = posi.eas_id left join dept_shr dept on shr_left.dept_id = dept.easdept_id left join dept_dt on dept.name = dept_dt.name group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.email,shr_left.address
+[2022-06-29 17:36:28.571] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.EmployeeDtMapper.getNewInsertInfo - ==> Parameters: 
+[2022-06-29 17:36:28.587] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.EmployeeDtMapper.getNewInsertInfo - <==      Total: 7
+[2022-06-29 17:37:00.005] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 17:37:00.005] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+[2022-06-29 17:37:00.005] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-29 17:37:47.637] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 572908 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-29 17:37:47.639] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-29 17:37:48.389] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-29 17:37:48.402] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[2022-06-29 17:37:48.674] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1a78e9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-29 17:37:48.877] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-29 17:37:48.892] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-29 17:37:48.892] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-29 17:37:48.961] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-29 17:37:48.962] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-29 17:37:48.962] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1288 ms
+[2022-06-29 17:37:49.249] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-29 17:37:49.249] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-29 17:37:49.471] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-29 17:37:49.510] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-29 17:37:50.001] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:37:50.052] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), ed6ff6ec8eed3fde901d67ca69348653(String)
+[2022-06-29 17:37:50.056] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:37:50.066] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-29 17:37:50.252] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:37:50.253] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 0cb8f8b962103a58aa2c808ff0827312(String)
+[2022-06-29 17:37:50.258] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:37:50.263] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-29 17:37:50.263] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-29 17:37:50.655] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-29 17:37:50.656] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), GZ8e_kgKY9x7-dljLvDVYj5F2t5v3p0HhHzOjbepBkbboVNuOUxFPWk3ooXuDrVpF3oN7EconwMW-Nok4UQKPACcI4vdTkIkHbmH26LEvGdAOY9Ki3-kvKls3QN9UFo5zhN17tx7I_hhc8HpQolsYm5WSprU4DDhoMDb9LIqCyTbL0Vm053orn1RzrXAiykmQmU9pam7swHJmoeLir3p8g(String)
+[2022-06-29 17:37:50.658] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-29 17:37:50.666] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-29 17:37:50.722] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-29 17:37:50.831] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-29 17:37:50.837] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-29 17:37:50.867] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+[2022-06-29 17:37:50.875] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-29 17:37:50.880] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-29 17:37:51.042] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-29 17:37:51.054] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-29 17:37:51.122] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-29 17:37:51.126] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 3.822 seconds (JVM running for 4.409)
+[2022-06-29 17:37:51.515] [RMI TCP Connection(3)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-29 17:37:51.515] [RMI TCP Connection(3)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-29 17:37:51.515] [RMI TCP Connection(3)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-29 17:37:51.521] [RMI TCP Connection(3)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-29 17:37:51.522] [RMI TCP Connection(3)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+[2022-06-29 17:37:54.213] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/update/dingtalk", parameters={}
+[2022-06-29 17:37:54.217] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.sunova.psinfo.controller.UpdatePerController.UpdateDingTalk()
+[2022-06-29 17:37:54.225] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.EmployeeDtMapper.getNewInsertInfo - ==>  Preparing: select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile,shr_left.fnumber as job_number,CONCAT('\"',GROUP_CONCAT(dept_dt.dept_id),'\"') as dept_id_list,posi.name as title,shr_left.email as email,shr_left.address as address from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left left join positionrel_shr rel on shr_left.easuser_id = rel.user_id left join position_shr posi on rel.position_id = posi.eas_id left join dept_shr dept on shr_left.dept_id = dept.easdept_id left join dept_dt on dept.name = dept_dt.name group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.email,shr_left.address
+[2022-06-29 17:37:54.242] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.EmployeeDtMapper.getNewInsertInfo - ==> Parameters: 
+[2022-06-29 17:37:54.255] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.EmployeeDtMapper.getNewInsertInfo - <==      Total: 7
+[2022-06-29 17:38:07.959] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-29 17:38:07.959] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+[2022-06-29 17:38:07.959] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK

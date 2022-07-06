@@ -48,7 +48,7 @@ public class ShrServiceImpl implements ShrService {
     public JSONArray get_dept(String fileName) throws Exception {
         JSONArray jsonArray = new JSONArray();
         jsonArray.addAll(jsonCon.readJsonFile(fileName, "name", "星诺", 2));
-        jsonArray.addAll(jsonCon.readJsonFile(fileName, "supFnumber", "230000", 1));
+        jsonArray.addAll(jsonCon.readJsonFile(fileName, "supFnumber", "230000", 3));
         return jsonArray;
     }
 

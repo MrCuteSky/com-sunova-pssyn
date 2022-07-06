@@ -16,4 +16,14 @@
         REPLACE into employee_dt value(#{userid},#{unionid},#{job_number},#{name},#{mobile},#{email},#{hide_mobile},#{boss},#{extension},#{exclusive_account},#{manager_userid},
         #{active},#{admin},#{avatar},#{hired_data},#{senior},#{work_place},#{dept_order_list},#{real_authed},#{dept_id_list},#{state_code},#{leader_in_dept})
     </insert>
+
+    <select id="getNewInsertInfo" resultType="com.sunova.psinfo.entities.updateEntities.DingTalkUp">
+        select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile,shr_left.fnumber as job_number,GROUP_CONCAT(dept_dt.dept_id) as dept_id_list,posi.name as title,shr_left.email as email,shr_left.address as address
+          from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+          left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+          left join position_shr posi on rel.position_id = posi.eas_id
+          left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+          left join dept_dt on dept.name = dept_dt.name
+          group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.email,shr_left.address
+    </select>
 </mapper>

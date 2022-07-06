@@ -1,0 +1,924 @@
+DEBUG Druid-ConnectionPool-Create-1522875398 druid.sql.Connection - {conn-10001,procId-48} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_dd, ed6ff6ec8eed3fde901d67ca69348653]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 4.0176 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Ad_dd, 0cb8f8b962103a58aa2c808ff0827312]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 3.639 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Contacts_wc, MFUZ5vEgm0Fl_VRVa1WTwUQQTIrzt50iKMdX6k1uat8bV3rAhw3MqQqw_L_VtJ38U2gAK4JpqLiJlagO1QJeJiRdu67pPvRF1tQCoDqDeQ4ORhb2IaeKlEa2_DETtz8WwUc2NjoKBi9MFjvYNxqk0iKRtO_pbvVb2uG4qLB_uqRxOkQAZAw0dtyfbeI8ZxTZ8nRydnVMJmOHFnIiB2SObg]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 0.9307 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} created
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003, rs-50000} query executed. 8.686 millis. /* ping */ SELECT 1
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} open
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Header: [1]
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Result: [1]
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} closed
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} closed
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG Druid-ConnectionPool-Destroy-1522875398 druid.sql.Connection - {conn-10001} closed
+DEBUG Druid-ConnectionPool-Create-1522875398 druid.sql.Connection - {conn-10002,procId-50} connected
+DEBUG timetask1 druid.sql.Connection - {conn-10002} pool-connect
+DEBUG timetask1 druid.sql.Connection - {conn-10002} setAutoCommit false
+DEBUG Druid-ConnectionPool-Create-1522875398 druid.sql.Connection - {conn-10003,procId-51} connected
+DEBUG timetask2 druid.sql.Connection - {conn-10003} pool-connect
+DEBUG timetask2 druid.sql.Connection - {conn-10003} setAutoCommit false
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20004} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20004} Parameters : [Contacts_dd, ed6ff6ec8eed3fde901d67ca69348653]
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20004} Types : [VARCHAR, VARCHAR]
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20004} executed. 4.9021 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20004} closed
+DEBUG timetask1 druid.sql.Connection - {conn-10002} commited
+DEBUG timetask1 druid.sql.Connection - {conn-10002} setAutoCommit true
+DEBUG timetask1 druid.sql.Connection - {conn-10002} pool-recycle
+DEBUG timetask1 druid.sql.Connection - {conn-10002} pool-connect
+DEBUG timetask1 druid.sql.Connection - {conn-10002} setAutoCommit false
+DEBUG timetask2 druid.sql.Statement - {conn-10003, pstmt-20005} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask2 druid.sql.Statement - {conn-10003, pstmt-20005} Parameters : [Contacts_wc, GZ8e_kgKY9x7-dljLvDVYj5F2t5v3p0HhHzOjbepBkbboVNuOUxFPWk3ooXuDrVpF3oN7EconwMW-Nok4UQKPACcI4vdTkIkHbmH26LEvGdAOY9Ki3-kvKls3QN9UFo5zhN17tx7I_hhc8HpQolsYm5WSprU4DDhoMDb9LIqCyTbL0Vm053orn1RzrXAiykmQmU9pam7swHJmoeLir3p8g]
+DEBUG timetask2 druid.sql.Statement - {conn-10003, pstmt-20005} Types : [VARCHAR, VARCHAR]
+DEBUG timetask2 druid.sql.Statement - {conn-10003, pstmt-20005} executed. 3.4917 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask2 druid.sql.Statement - {conn-10003, pstmt-20005} closed
+DEBUG timetask2 druid.sql.Connection - {conn-10003} commited
+DEBUG timetask2 druid.sql.Connection - {conn-10003} setAutoCommit true
+DEBUG timetask2 druid.sql.Connection - {conn-10003} pool-recycle
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20006} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20006} Parameters : [Ad_dd, 0cb8f8b962103a58aa2c808ff0827312]
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20006} Types : [VARCHAR, VARCHAR]
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20006} executed. 1.8252 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20006} closed
+DEBUG timetask1 druid.sql.Connection - {conn-10002} commited
+DEBUG timetask1 druid.sql.Connection - {conn-10002} setAutoCommit true
+DEBUG timetask1 druid.sql.Connection - {conn-10002} pool-recycle
+DEBUG Druid-ConnectionPool-Destroy-1522875398 druid.sql.Connection - {conn-10003} closed
+DEBUG Druid-ConnectionPool-Destroy-1522875398 druid.sql.Connection - {conn-10002} closed
+DEBUG Druid-ConnectionPool-Create-1491779598 druid.sql.Connection - {conn-10001,procId-54} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_wc, GZ8e_kgKY9x7-dljLvDVYj5F2t5v3p0HhHzOjbepBkbboVNuOUxFPWk3ooXuDrVpF3oN7EconwMW-Nok4UQKPACcI4vdTkIkHbmH26LEvGdAOY9Ki3-kvKls3QN9UFo5zhN17tx7I_hhc8HpQolsYm5WSprU4DDhoMDb9LIqCyTbL0Vm053orn1RzrXAiykmQmU9pam7swHJmoeLir3p8g]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 3.5064 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Contacts_dd, ed6ff6ec8eed3fde901d67ca69348653]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 1.3592 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Ad_dd, 0cb8f8b962103a58aa2c808ff0827312]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 0.9884 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} created
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003, rs-50000} query executed. 9.3187 millis. /* ping */ SELECT 1
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} open
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Header: [1]
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Result: [1]
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} closed
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} closed
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG Druid-ConnectionPool-Create-1420770489 druid.sql.Connection - {conn-10001,procId-55} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_dd, ed6ff6ec8eed3fde901d67ca69348653]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 2.6037 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Ad_dd, 0cb8f8b962103a58aa2c808ff0827312]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 1.8184 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Contacts_wc, GZ8e_kgKY9x7-dljLvDVYj5F2t5v3p0HhHzOjbepBkbboVNuOUxFPWk3ooXuDrVpF3oN7EconwMW-Nok4UQKPACcI4vdTkIkHbmH26LEvGdAOY9Ki3-kvKls3QN9UFo5zhN17tx7I_hhc8HpQolsYm5WSprU4DDhoMDb9LIqCyTbL0Vm053orn1RzrXAiykmQmU9pam7swHJmoeLir3p8g]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 0.9155 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} created
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003, rs-50000} query executed. 10.6073 millis. /* ping */ SELECT 1
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} open
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Header: [1]
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Result: [1]
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} closed
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} closed
+DEBUG RMI TCP Connection(3)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} created. select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile,shr_left.fnumber as job_number,CONCAT('\"',GROUP_CONCAT(dept_dt.dept_id),'\"') as department,posi.name as title,shr_left.email as email,shr_left.address as address
+          from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+          left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+          left join position_shr posi on rel.position_id = posi.eas_id
+          left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+          left join dept_dt on dept.name = dept_dt.name
+          group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.email,shr_left.address
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Parameters : []
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Types : []
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} executed. 8.949 millis. select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile,shr_left.fnumber as job_number,CONCAT('\"',GROUP_CONCAT(dept_dt.dept_id),'\"') as department,posi.name as title,shr_left.email as email,shr_left.address as address
+          from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+          left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+          left join position_shr posi on rel.position_id = posi.eas_id
+          left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+          left join dept_dt on dept.name = dept_dt.name
+          group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.email,shr_left.address
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} open
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Header: [userid, name, mobile, job_number, department, name, email, address]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [002677, 张岩, 15852032325, 002677, "482530056", 操作运营, zhangyan18@fosunpharma.com, 新沂市新安镇臧圩村]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [012786, 刘梦琪, 18552807919, 012786, "482019026", 行政前台, liumengqi1@fosunpharma.com, 江苏省徐州市新沂市城市花苑2期11号楼202]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050029, 王婷, 15152138972, 050029, "482530056", 操作运营, wangting3@fosunpharma.com, 江苏省徐州市鼓楼区东环街道长安大道星光名庭27栋四单元601]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050094, 陈潘, 17327053719, 050094, "482530056", 操作运营, chenpan1@fosunpharma.com, 江苏省新沂市]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050151, 张家艾, 16621774838, 050151, "482124023", 董事长, allen.zhang@fosunpharma.com, 上海]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050191, 姚普方, 18261492389, 050191, "600588376", 采购专员, 1870820295@qq.com, 江苏省新沂市新安街道轻工路西二十九巷47号]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050207, 杨锛, 17372901176, 050207, "482530056", 操作运营, yangben@fosunpharma.com, 江苏省新沂市唐店镇唐店村东四队70号]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG Druid-ConnectionPool-Create-1232204889 druid.sql.Connection - {conn-10001,procId-56} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_dd, ed6ff6ec8eed3fde901d67ca69348653]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 9.6471 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Ad_dd, 0cb8f8b962103a58aa2c808ff0827312]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 1.2744 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Contacts_wc, GZ8e_kgKY9x7-dljLvDVYj5F2t5v3p0HhHzOjbepBkbboVNuOUxFPWk3ooXuDrVpF3oN7EconwMW-Nok4UQKPACcI4vdTkIkHbmH26LEvGdAOY9Ki3-kvKls3QN9UFo5zhN17tx7I_hhc8HpQolsYm5WSprU4DDhoMDb9LIqCyTbL0Vm053orn1RzrXAiykmQmU9pam7swHJmoeLir3p8g]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 1.072 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} created
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003, rs-50000} query executed. 6.7247 millis. /* ping */ SELECT 1
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} open
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Header: [1]
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Result: [1]
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} closed
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} closed
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-3 druid.sql.Statement - {conn-10001, pstmt-20004} created. select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile,shr_left.fnumber as job_number,CONCAT('\"',GROUP_CONCAT(dept_dt.dept_id),'\"') as department,posi.name as title,shr_left.email as email,shr_left.address as address
+          from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+          left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+          left join position_shr posi on rel.position_id = posi.eas_id
+          left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+          left join dept_dt on dept.name = dept_dt.name
+          group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.email,shr_left.address
+DEBUG http-nio-8888-exec-3 druid.sql.Statement - {conn-10001, pstmt-20004} Parameters : []
+DEBUG http-nio-8888-exec-3 druid.sql.Statement - {conn-10001, pstmt-20004} Types : []
+DEBUG http-nio-8888-exec-3 druid.sql.Statement - {conn-10001, pstmt-20004} executed. 6.2607 millis. select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile,shr_left.fnumber as job_number,CONCAT('\"',GROUP_CONCAT(dept_dt.dept_id),'\"') as department,posi.name as title,shr_left.email as email,shr_left.address as address
+          from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+          left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+          left join position_shr posi on rel.position_id = posi.eas_id
+          left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+          left join dept_dt on dept.name = dept_dt.name
+          group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.email,shr_left.address
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} open
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Header: [userid, name, mobile, job_number, department, name, email, address]
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [002677, 张岩, 15852032325, 002677, "482530056", 操作运营, zhangyan18@fosunpharma.com, 新沂市新安镇臧圩村]
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [012786, 刘梦琪, 18552807919, 012786, "482019026", 行政前台, liumengqi1@fosunpharma.com, 江苏省徐州市新沂市城市花苑2期11号楼202]
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050029, 王婷, 15152138972, 050029, "482530056", 操作运营, wangting3@fosunpharma.com, 江苏省徐州市鼓楼区东环街道长安大道星光名庭27栋四单元601]
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050094, 陈潘, 17327053719, 050094, "482530056", 操作运营, chenpan1@fosunpharma.com, 江苏省新沂市]
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050151, 张家艾, 16621774838, 050151, "482124023", 董事长, allen.zhang@fosunpharma.com, 上海]
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050191, 姚普方, 18261492389, 050191, "600588376", 采购专员, 1870820295@qq.com, 江苏省新沂市新安街道轻工路西二十九巷47号]
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050207, 杨锛, 17372901176, 050207, "482530056", 操作运营, yangben@fosunpharma.com, 江苏省新沂市唐店镇唐店村东四队70号]
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} closed
+DEBUG http-nio-8888-exec-3 druid.sql.Statement - {conn-10001, pstmt-20004} closed
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG Druid-ConnectionPool-Create-590414408 druid.sql.Connection - {conn-10001,procId-57} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_dd, ed6ff6ec8eed3fde901d67ca69348653]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 3.1731 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Ad_dd, 0cb8f8b962103a58aa2c808ff0827312]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 3.8428 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Contacts_wc, GZ8e_kgKY9x7-dljLvDVYj5F2t5v3p0HhHzOjbepBkbboVNuOUxFPWk3ooXuDrVpF3oN7EconwMW-Nok4UQKPACcI4vdTkIkHbmH26LEvGdAOY9Ki3-kvKls3QN9UFo5zhN17tx7I_hhc8HpQolsYm5WSprU4DDhoMDb9LIqCyTbL0Vm053orn1RzrXAiykmQmU9pam7swHJmoeLir3p8g]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 1.0974 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} created
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003, rs-50000} query executed. 9.65 millis. /* ping */ SELECT 1
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} open
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Header: [1]
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Result: [1]
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} closed
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} closed
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} created. select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile,shr_left.fnumber as job_number,CONCAT('\"',GROUP_CONCAT(dept_dt.dept_id),'\"') as dept_id_list,posi.name as title,shr_left.email as email,shr_left.address as address
+          from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+          left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+          left join position_shr posi on rel.position_id = posi.eas_id
+          left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+          left join dept_dt on dept.name = dept_dt.name
+          group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.email,shr_left.address
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Parameters : []
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Types : []
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} executed. 3.8673 millis. select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile,shr_left.fnumber as job_number,CONCAT('\"',GROUP_CONCAT(dept_dt.dept_id),'\"') as dept_id_list,posi.name as title,shr_left.email as email,shr_left.address as address
+          from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+          left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+          left join position_shr posi on rel.position_id = posi.eas_id
+          left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+          left join dept_dt on dept.name = dept_dt.name
+          group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.email,shr_left.address
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} open
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Header: [userid, name, mobile, job_number, dept_id_list, name, email, address]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [002677, 张岩, 15852032325, 002677, "482530056", 操作运营, zhangyan18@fosunpharma.com, 新沂市新安镇臧圩村]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [012786, 刘梦琪, 18552807919, 012786, "482019026", 行政前台, liumengqi1@fosunpharma.com, 江苏省徐州市新沂市城市花苑2期11号楼202]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050029, 王婷, 15152138972, 050029, "482530056", 操作运营, wangting3@fosunpharma.com, 江苏省徐州市鼓楼区东环街道长安大道星光名庭27栋四单元601]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050094, 陈潘, 17327053719, 050094, "482530056", 操作运营, chenpan1@fosunpharma.com, 江苏省新沂市]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050151, 张家艾, 16621774838, 050151, "482124023", 董事长, allen.zhang@fosunpharma.com, 上海]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050191, 姚普方, 18261492389, 050191, "600588376", 采购专员, 1870820295@qq.com, 江苏省新沂市新安街道轻工路西二十九巷47号]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050207, 杨锛, 17372901176, 050207, "482530056", 操作运营, yangben@fosunpharma.com, 江苏省新沂市唐店镇唐店村东四队70号]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG Druid-ConnectionPool-Create-816760435 druid.sql.Connection - {conn-10001,procId-60} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_dd, bcbeeaf186423e0ba7473fcc14ddae64]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 7.4847 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Ad_dd, 8a7c408fa7a13a4ab5eb1dcfc6c53fe1]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 3.1642 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Contacts_wc, x22YDnc_fyOZM8bKnKv4Kc2Hht5qqUHfl2wOxsfg1T75qPUPknQdjhfz6olbq54d4oPFlw5XPXNw9QuJUFd1FpXoalf8qgdbNxNYqLrIo1MWOBAHAM4Q3Zx9YbvASuqFFDsJ7L-VW87WEKvLMeDSqBDtFcKHNoBcmI1mzeEn9DYN0EOUDp-t8d7MkHnsonKa5BpkMARcVWyfkuZalEsRpg]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 3.2397 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG Druid-ConnectionPool-Create-822769753 druid.sql.Connection - {conn-10001,procId-61} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_dd, bcbeeaf186423e0ba7473fcc14ddae64]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 12.5913 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Ad_dd, 8a7c408fa7a13a4ab5eb1dcfc6c53fe1]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 1.966 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Contacts_wc, x22YDnc_fyOZM8bKnKv4Kc2Hht5qqUHfl2wOxsfg1T75qPUPknQdjhfz6olbq54d4oPFlw5XPXNw9QuJUFd1FpXoalf8qgdbNxNYqLrIo1MWOBAHAM4Q3Zx9YbvASuqFFDsJ7L-VW87WEKvLMeDSqBDtFcKHNoBcmI1mzeEn9DYN0EOUDp-t8d7MkHnsonKa5BpkMARcVWyfkuZalEsRpg]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 5.4596 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} created
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003, rs-50000} query executed. 21.7224 millis. /* ping */ SELECT 1
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} open
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Header: [1]
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Result: [1]
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} closed
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} closed
+DEBUG RMI TCP Connection(5)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} created. select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile, CONCAT('[',GROUP_CONCAT(IFNULL(dept_wc.id,dept_wc_f.id)),']') as department,posi.name as position,shr_left.sex as gender,shr_left.email as email,shr_left.address as address
+        from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+        left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+        left join position_shr posi on rel.position_id = posi.eas_id
+        left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+        left join dept_wc on dept.name = dept_wc.name
+        left join dept_wc dept_wc_f on dept.supname = dept_wc_f.name
+        group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.sex,shr_left.email,shr_left.address
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Parameters : []
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Types : []
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} executed. 14.6943 millis. select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile, CONCAT('[',GROUP_CONCAT(IFNULL(dept_wc.id,dept_wc_f.id)),']') as department,posi.name as position,shr_left.sex as gender,shr_left.email as email,shr_left.address as address
+        from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+        left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+        left join position_shr posi on rel.position_id = posi.eas_id
+        left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+        left join dept_wc on dept.name = dept_wc.name
+        left join dept_wc dept_wc_f on dept.supname = dept_wc_f.name
+        group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.sex,shr_left.email,shr_left.address
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} open
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Header: [userid, name, mobile, department, name, gender, email, address]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [002677, 张岩, 15852032325, [21], 操作运营, 2, zhangyan18@fosunpharma.com, 新沂市新安镇臧圩村]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [012786, 刘梦琪, 18552807919, [26], 行政前台, 2, liumengqi1@fosunpharma.com, 江苏省徐州市新沂市城市花苑2期11号楼202]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050029, 王婷, 15152138972, [21], 操作运营, 2, wangting3@fosunpharma.com, 江苏省徐州市鼓楼区东环街道长安大道星光名庭27栋四单元601]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050094, 陈潘, 17327053719, [21], 操作运营, 1, chenpan1@fosunpharma.com, 江苏省新沂市]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050151, 张家艾, 16621774838, [23], 董事长, 1, allen.zhang@fosunpharma.com, 上海]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050191, 姚普方, 18261492389, [19], 采购专员, 1, 1870820295@qq.com, 江苏省新沂市新安街道轻工路西二十九巷47号]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050207, 杨锛, 17372901176, [21], 操作运营, 1, yangben@fosunpharma.com, 江苏省新沂市唐店镇唐店村东四队70号]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG Druid-ConnectionPool-Create-2322399 druid.sql.Connection - {conn-10001,procId-62} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_dd, bcbeeaf186423e0ba7473fcc14ddae64]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 10.4807 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Ad_dd, 8a7c408fa7a13a4ab5eb1dcfc6c53fe1]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 8.3846 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Contacts_wc, x22YDnc_fyOZM8bKnKv4Kc2Hht5qqUHfl2wOxsfg1T75qPUPknQdjhfz6olbq54d4oPFlw5XPXNw9QuJUFd1FpXoalf8qgdbNxNYqLrIo1MWOBAHAM4Q3Zx9YbvASuqFFDsJ7L-VW87WEKvLMeDSqBDtFcKHNoBcmI1mzeEn9DYN0EOUDp-t8d7MkHnsonKa5BpkMARcVWyfkuZalEsRpg]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 8.1288 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} created
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003, rs-50000} query executed. 10.5116 millis. /* ping */ SELECT 1
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} open
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Header: [1]
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Result: [1]
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} closed
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} closed
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-2 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-2 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-2 druid.sql.Statement - {conn-10001, pstmt-20004} created. select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile, GROUP_CONCAT(IFNULL(dept_wc.id,dept_wc_f.id)) as department,posi.name as position,shr_left.sex as gender,shr_left.email as email,shr_left.address as address
+        from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+        left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+        left join position_shr posi on rel.position_id = posi.eas_id
+        left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+        left join dept_wc on dept.name = dept_wc.name
+        left join dept_wc dept_wc_f on dept.supname = dept_wc_f.name
+        group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.sex,shr_left.email,shr_left.address
+DEBUG http-nio-8888-exec-2 druid.sql.Statement - {conn-10001, pstmt-20004} Parameters : []
+DEBUG http-nio-8888-exec-2 druid.sql.Statement - {conn-10001, pstmt-20004} Types : []
+DEBUG http-nio-8888-exec-2 druid.sql.Statement - {conn-10001, pstmt-20004} executed. 6.791 millis. select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile, GROUP_CONCAT(IFNULL(dept_wc.id,dept_wc_f.id)) as department,posi.name as position,shr_left.sex as gender,shr_left.email as email,shr_left.address as address
+        from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+        left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+        left join position_shr posi on rel.position_id = posi.eas_id
+        left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+        left join dept_wc on dept.name = dept_wc.name
+        left join dept_wc dept_wc_f on dept.supname = dept_wc_f.name
+        group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.sex,shr_left.email,shr_left.address
+DEBUG http-nio-8888-exec-2 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} open
+DEBUG http-nio-8888-exec-2 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Header: [userid, name, mobile, department, name, gender, email, address]
+DEBUG http-nio-8888-exec-2 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [002677, 张岩, 15852032325, 21, 操作运营, 2, zhangyan18@fosunpharma.com, 新沂市新安镇臧圩村]
+DEBUG http-nio-8888-exec-2 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [012786, 刘梦琪, 18552807919, 26, 行政前台, 2, liumengqi1@fosunpharma.com, 江苏省徐州市新沂市城市花苑2期11号楼202]
+DEBUG http-nio-8888-exec-2 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050029, 王婷, 15152138972, 21, 操作运营, 2, wangting3@fosunpharma.com, 江苏省徐州市鼓楼区东环街道长安大道星光名庭27栋四单元601]
+DEBUG http-nio-8888-exec-2 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050094, 陈潘, 17327053719, 21, 操作运营, 1, chenpan1@fosunpharma.com, 江苏省新沂市]
+DEBUG http-nio-8888-exec-2 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050151, 张家艾, 16621774838, 23, 董事长, 1, allen.zhang@fosunpharma.com, 上海]
+DEBUG http-nio-8888-exec-2 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050191, 姚普方, 18261492389, 19, 采购专员, 1, 1870820295@qq.com, 江苏省新沂市新安街道轻工路西二十九巷47号]
+DEBUG http-nio-8888-exec-2 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [050207, 杨锛, 17372901176, 21, 操作运营, 1, yangben@fosunpharma.com, 江苏省新沂市唐店镇唐店村东四队70号]
+DEBUG http-nio-8888-exec-2 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} closed
+DEBUG http-nio-8888-exec-2 druid.sql.Statement - {conn-10001, pstmt-20004} closed
+DEBUG http-nio-8888-exec-2 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-2 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-2 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG Druid-ConnectionPool-Create-1354001956 druid.sql.Connection - {conn-10001,procId-8} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_dd, c52d67405a9d319085d3f032f57ab3da]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 45.7921 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Ad_dd, 7c0b3b340d9f3f5497f8fc19fc11dd6e]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 1.5477 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Contacts_wc, -PWBRO9SVGXIFWP96QMYUleWAShULgNjQTkpd4GeSpaBu17HovBE4zF1ax6q4arl5aa8e03B7RT5CAkplH6_9iKDdsCKr9tDOwEEmfeJBeem6eeF87LnMijnbKyp1w08XVzuNqd52c6-PYTaEx42dLKt_pyw08CyW2XvogkZbYVghAoiRjbpmwVV1VsqHYs82ot_fvV92d5wf6ji2qvsuA]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 1.2391 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} created
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003, rs-50000} query executed. 14.4846 millis. /* ping */ SELECT 1
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} open
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Header: [1]
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Result: [1]
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} closed
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} closed
+DEBUG RMI TCP Connection(2)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} executed. 10.5159 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} open
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [Ad_dd, 7c0b3b340d9f3f5497f8fc19fc11dd6e]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-3 druid.sql.Statement - {conn-10001, pstmt-20005} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-3 druid.sql.Statement - {conn-10001, pstmt-20005} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-3 druid.sql.Statement - {conn-10001, pstmt-20005} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-3 druid.sql.Statement - {conn-10001, pstmt-20005} executed. 0.8202 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20005, rs-50002} open
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20005, rs-50002} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20005, rs-50002} Result: [Ad_dd, 7c0b3b340d9f3f5497f8fc19fc11dd6e]
+DEBUG http-nio-8888-exec-3 druid.sql.ResultSet - {conn-10001, pstmt-20005, rs-50002} closed
+DEBUG http-nio-8888-exec-3 druid.sql.Statement - {conn-10001, pstmt-20005} closed
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-3 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-5 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-5 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-5 druid.sql.Statement - {conn-10001, pstmt-20006} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-5 druid.sql.Statement - {conn-10001, pstmt-20006} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-5 druid.sql.Statement - {conn-10001, pstmt-20006} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-5 druid.sql.Statement - {conn-10001, pstmt-20006} executed. 0.7573 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-5 druid.sql.ResultSet - {conn-10001, pstmt-20006, rs-50003} open
+DEBUG http-nio-8888-exec-5 druid.sql.ResultSet - {conn-10001, pstmt-20006, rs-50003} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-5 druid.sql.ResultSet - {conn-10001, pstmt-20006, rs-50003} Result: [Ad_dd, 7c0b3b340d9f3f5497f8fc19fc11dd6e]
+DEBUG http-nio-8888-exec-5 druid.sql.ResultSet - {conn-10001, pstmt-20006, rs-50003} closed
+DEBUG http-nio-8888-exec-5 druid.sql.Statement - {conn-10001, pstmt-20006} closed
+DEBUG http-nio-8888-exec-5 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-5 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-5 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-5 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-5 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-5 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-5 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-5 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-4 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-4 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-4 druid.sql.Statement - {conn-10001, pstmt-20007} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-4 druid.sql.Statement - {conn-10001, pstmt-20007} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-4 druid.sql.Statement - {conn-10001, pstmt-20007} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-4 druid.sql.Statement - {conn-10001, pstmt-20007} executed. 0.6418 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-4 druid.sql.ResultSet - {conn-10001, pstmt-20007, rs-50004} open
+DEBUG http-nio-8888-exec-4 druid.sql.ResultSet - {conn-10001, pstmt-20007, rs-50004} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-4 druid.sql.ResultSet - {conn-10001, pstmt-20007, rs-50004} Result: [Ad_dd, 7c0b3b340d9f3f5497f8fc19fc11dd6e]
+DEBUG http-nio-8888-exec-4 druid.sql.ResultSet - {conn-10001, pstmt-20007, rs-50004} closed
+DEBUG http-nio-8888-exec-4 druid.sql.Statement - {conn-10001, pstmt-20007} closed
+DEBUG http-nio-8888-exec-4 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-4 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-4 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-4 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-4 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-4 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-4 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-4 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-6 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-6 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-6 druid.sql.Statement - {conn-10001, pstmt-20008} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-6 druid.sql.Statement - {conn-10001, pstmt-20008} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-6 druid.sql.Statement - {conn-10001, pstmt-20008} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-6 druid.sql.Statement - {conn-10001, pstmt-20008} executed. 0.9489 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-6 druid.sql.ResultSet - {conn-10001, pstmt-20008, rs-50005} open
+DEBUG http-nio-8888-exec-6 druid.sql.ResultSet - {conn-10001, pstmt-20008, rs-50005} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-6 druid.sql.ResultSet - {conn-10001, pstmt-20008, rs-50005} Result: [Ad_dd, 7c0b3b340d9f3f5497f8fc19fc11dd6e]
+DEBUG http-nio-8888-exec-6 druid.sql.ResultSet - {conn-10001, pstmt-20008, rs-50005} closed
+DEBUG http-nio-8888-exec-6 druid.sql.Statement - {conn-10001, pstmt-20008} closed
+DEBUG http-nio-8888-exec-6 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-6 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-6 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-6 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-6 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-6 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-6 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-6 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-7 druid.sql.Statement - {conn-10001, pstmt-20009} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-7 druid.sql.Statement - {conn-10001, pstmt-20009} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-7 druid.sql.Statement - {conn-10001, pstmt-20009} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-7 druid.sql.Statement - {conn-10001, pstmt-20009} executed. 0.538 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-7 druid.sql.ResultSet - {conn-10001, pstmt-20009, rs-50006} open
+DEBUG http-nio-8888-exec-7 druid.sql.ResultSet - {conn-10001, pstmt-20009, rs-50006} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-7 druid.sql.ResultSet - {conn-10001, pstmt-20009, rs-50006} Result: [Ad_dd, 7c0b3b340d9f3f5497f8fc19fc11dd6e]
+DEBUG http-nio-8888-exec-7 druid.sql.ResultSet - {conn-10001, pstmt-20009, rs-50006} closed
+DEBUG http-nio-8888-exec-7 druid.sql.Statement - {conn-10001, pstmt-20009} closed
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG Druid-ConnectionPool-Destroy-1354001956 druid.sql.Connection - {conn-10001} closed
+DEBUG Druid-ConnectionPool-Create-1354001956 druid.sql.Connection - {conn-10001,procId-8} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_dd, 9989bf910839304d8f7b8d53716da8c6]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 15.4857 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Ad_dd, db3eb6f5bd183fb681a9d080bffcff1e]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 1.283 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Contacts_wc, O5BgNUvhOiYY30pvgpbeuUDbk7c_X8Aj4c0pVLy-J6jMNjuTxqgKYp-DKIEtheelRCAD24-V_V3ZoqseF15srLwZotewxn0uEhYZhDVSuWsKtAlt5abizAsrrEHwMutzGsvS2THvw_nHggwDzy5Ii4vEgQiBNMxNiEgWt-BbcvVnFmGHKro9Mzc_L2ni3sWSEaDAGgIjp7xetroEVy5tww]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 1.2168 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} created
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003, rs-50000} query executed. 8.854 millis. /* ping */ SELECT 1
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} open
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Header: [1]
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Result: [1]
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} closed
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} closed
+DEBUG RMI TCP Connection(4)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} executed. 8.6746 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} open
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [Ad_dd, db3eb6f5bd183fb681a9d080bffcff1e]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG timetask2 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG timetask2 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG Druid-ConnectionPool-Create-1354001956 druid.sql.Connection - {conn-10002,procId-9} connected
+DEBUG timetask1 druid.sql.Connection - {conn-10002} pool-connect
+DEBUG timetask1 druid.sql.Connection - {conn-10002} setAutoCommit false
+DEBUG timetask2 druid.sql.Statement - {conn-10001, pstmt-20005} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask2 druid.sql.Statement - {conn-10001, pstmt-20005} Parameters : [Contacts_wc, O5BgNUvhOiYY30pvgpbeuUDbk7c_X8Aj4c0pVLy-J6jMNjuTxqgKYp-DKIEtheelRCAD24-V_V3ZoqseF15srLwZotewxn0uEhYZhDVSuWsKtAlt5abizAsrrEHwMutzGsvS2THvw_nHggwDzy5Ii4vEgQiBNMxNiEgWt-BbcvVnFmGHKro9Mzc_L2ni3sWSEaDAGgIjp7xetroEVy5tww]
+DEBUG timetask2 druid.sql.Statement - {conn-10001, pstmt-20005} Types : [VARCHAR, VARCHAR]
+DEBUG timetask2 druid.sql.Statement - {conn-10001, pstmt-20005} executed. 1.2284 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask2 druid.sql.Statement - {conn-10001, pstmt-20005} closed
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20006} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20006} Parameters : [Contacts_dd, 9989bf910839304d8f7b8d53716da8c6]
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20006} Types : [VARCHAR, VARCHAR]
+DEBUG timetask2 druid.sql.Connection - {conn-10001} commited
+DEBUG timetask2 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG timetask2 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20006} executed. 1.7908 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20006} closed
+DEBUG timetask1 druid.sql.Connection - {conn-10002} commited
+DEBUG timetask1 druid.sql.Connection - {conn-10002} setAutoCommit true
+DEBUG timetask1 druid.sql.Connection - {conn-10002} pool-recycle
+DEBUG timetask1 druid.sql.Connection - {conn-10002} pool-connect
+DEBUG timetask1 druid.sql.Connection - {conn-10002} setAutoCommit false
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20007} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20007} Parameters : [Ad_dd, db3eb6f5bd183fb681a9d080bffcff1e]
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20007} Types : [VARCHAR, VARCHAR]
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20007} executed. 1.0504 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask1 druid.sql.Statement - {conn-10002, pstmt-20007} closed
+DEBUG timetask1 druid.sql.Connection - {conn-10002} commited
+DEBUG timetask1 druid.sql.Connection - {conn-10002} setAutoCommit true
+DEBUG timetask1 druid.sql.Connection - {conn-10002} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10002} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10002} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10002, pstmt-20008} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10002, pstmt-20008} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10002, pstmt-20008} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10002, pstmt-20008} executed. 1.0744 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10002, pstmt-20008, rs-50002} open
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10002, pstmt-20008, rs-50002} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10002, pstmt-20008, rs-50002} Result: [Ad_dd, db3eb6f5bd183fb681a9d080bffcff1e]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10002, pstmt-20008, rs-50002} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10002, pstmt-20008} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10002} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10002} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10002} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10002} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10002} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10002} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10002} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10002} pool-recycle
+DEBUG Druid-ConnectionPool-Create-1522875398 druid.sql.Connection - {conn-10001,procId-10} connected
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Parameters : [Contacts_wc, O5BgNUvhOiYY30pvgpbeuUDbk7c_X8Aj4c0pVLy-J6jMNjuTxqgKYp-DKIEtheelRCAD24-V_V3ZoqseF15srLwZotewxn0uEhYZhDVSuWsKtAlt5abizAsrrEHwMutzGsvS2THvw_nHggwDzy5Ii4vEgQiBNMxNiEgWt-BbcvVnFmGHKro9Mzc_L2ni3sWSEaDAGgIjp7xetroEVy5tww]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} executed. 2.7328 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Parameters : [Contacts_dd, 9989bf910839304d8f7b8d53716da8c6]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} executed. 1.4979 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20001} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} pool-connect
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Parameters : [Ad_dd, db3eb6f5bd183fb681a9d080bffcff1e]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} Types : [VARCHAR, VARCHAR]
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} executed. 2.2568 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG main druid.sql.Statement - {conn-10001, pstmt-20002} closed
+DEBUG main druid.sql.Connection - {conn-10001} commited
+DEBUG main druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} created
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003, rs-50000} query executed. 7.9441 millis. /* ping */ SELECT 1
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} open
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Header: [1]
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} Result: [1]
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.ResultSet - {conn-10001, stmt-20003, rs-50000} closed
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.Statement - {conn-10001, stmt-20003} closed
+DEBUG RMI TCP Connection(1)-172.21.3.34 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} executed. 0.7686 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} open
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} Result: [Ad_dd, db3eb6f5bd183fb681a9d080bffcff1e]
+DEBUG http-nio-8888-exec-1 druid.sql.ResultSet - {conn-10001, pstmt-20004, rs-50001} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Statement - {conn-10001, pstmt-20004} closed
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-1 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-8 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-8 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-8 druid.sql.Statement - {conn-10001, pstmt-20005} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-8 druid.sql.Statement - {conn-10001, pstmt-20005} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-8 druid.sql.Statement - {conn-10001, pstmt-20005} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-8 druid.sql.Statement - {conn-10001, pstmt-20005} executed. 0.6681 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-8 druid.sql.ResultSet - {conn-10001, pstmt-20005, rs-50002} open
+DEBUG http-nio-8888-exec-8 druid.sql.ResultSet - {conn-10001, pstmt-20005, rs-50002} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-8 druid.sql.ResultSet - {conn-10001, pstmt-20005, rs-50002} Result: [Ad_dd, db3eb6f5bd183fb681a9d080bffcff1e]
+DEBUG http-nio-8888-exec-8 druid.sql.ResultSet - {conn-10001, pstmt-20005, rs-50002} closed
+DEBUG http-nio-8888-exec-8 druid.sql.Statement - {conn-10001, pstmt-20005} closed
+DEBUG http-nio-8888-exec-8 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-8 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-8 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-8 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-8 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-8 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-8 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-8 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-7 druid.sql.Statement - {conn-10001, pstmt-20006} created. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-7 druid.sql.Statement - {conn-10001, pstmt-20006} Parameters : [Ad_dd]
+DEBUG http-nio-8888-exec-7 druid.sql.Statement - {conn-10001, pstmt-20006} Types : [VARCHAR]
+DEBUG http-nio-8888-exec-7 druid.sql.Statement - {conn-10001, pstmt-20006} executed. 0.6948 millis. select * from appAuthority where application=?
+DEBUG http-nio-8888-exec-7 druid.sql.ResultSet - {conn-10001, pstmt-20006, rs-50003} open
+DEBUG http-nio-8888-exec-7 druid.sql.ResultSet - {conn-10001, pstmt-20006, rs-50003} Header: [application, accesskey]
+DEBUG http-nio-8888-exec-7 druid.sql.ResultSet - {conn-10001, pstmt-20006, rs-50003} Result: [Ad_dd, db3eb6f5bd183fb681a9d080bffcff1e]
+DEBUG http-nio-8888-exec-7 druid.sql.ResultSet - {conn-10001, pstmt-20006, rs-50003} closed
+DEBUG http-nio-8888-exec-7 druid.sql.Statement - {conn-10001, pstmt-20006} closed
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} pool-connect
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} setAutoCommit false
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} commited
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} setAutoCommit true
+DEBUG http-nio-8888-exec-7 druid.sql.Connection - {conn-10001} pool-recycle
+DEBUG Druid-ConnectionPool-Destroy-1522875398 druid.sql.Connection - {conn-10001} closed
+DEBUG Druid-ConnectionPool-Create-1522875398 druid.sql.Connection - {conn-10002,procId-11} connected
+DEBUG timetask2 druid.sql.Connection - {conn-10002} pool-connect
+DEBUG timetask2 druid.sql.Connection - {conn-10002} setAutoCommit false
+DEBUG Druid-ConnectionPool-Create-1522875398 druid.sql.Connection - {conn-10003,procId-12} connected
+DEBUG timetask1 druid.sql.Connection - {conn-10003} pool-connect
+DEBUG timetask1 druid.sql.Connection - {conn-10003} setAutoCommit false
+DEBUG timetask2 druid.sql.Statement - {conn-10002, pstmt-20007} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask2 druid.sql.Statement - {conn-10002, pstmt-20007} Parameters : [Contacts_dd, 9989bf910839304d8f7b8d53716da8c6]
+DEBUG timetask2 druid.sql.Statement - {conn-10002, pstmt-20007} Types : [VARCHAR, VARCHAR]
+DEBUG timetask2 druid.sql.Statement - {conn-10002, pstmt-20007} executed. 2.3898 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask2 druid.sql.Statement - {conn-10002, pstmt-20007} closed
+DEBUG timetask2 druid.sql.Connection - {conn-10002} commited
+DEBUG timetask2 druid.sql.Connection - {conn-10002} setAutoCommit true
+DEBUG timetask2 druid.sql.Connection - {conn-10002} pool-recycle
+DEBUG timetask2 druid.sql.Connection - {conn-10002} pool-connect
+DEBUG timetask2 druid.sql.Connection - {conn-10002} setAutoCommit false
+DEBUG timetask1 druid.sql.Statement - {conn-10003, pstmt-20008} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask1 druid.sql.Statement - {conn-10003, pstmt-20008} Parameters : [Contacts_wc, O5BgNUvhOiYY30pvgpbeuUDbk7c_X8Aj4c0pVLy-J6jMNjuTxqgKYp-DKIEtheelRCAD24-V_V3ZoqseF15srLwZotewxn0uEhYZhDVSuWsKtAlt5abizAsrrEHwMutzGsvS2THvw_nHggwDzy5Ii4vEgQiBNMxNiEgWt-BbcvVnFmGHKro9Mzc_L2ni3sWSEaDAGgIjp7xetroEVy5tww]
+DEBUG timetask1 druid.sql.Statement - {conn-10003, pstmt-20008} Types : [VARCHAR, VARCHAR]
+DEBUG timetask1 druid.sql.Statement - {conn-10003, pstmt-20008} executed. 0.9975 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask1 druid.sql.Statement - {conn-10003, pstmt-20008} closed
+DEBUG timetask1 druid.sql.Connection - {conn-10003} commited
+DEBUG timetask1 druid.sql.Connection - {conn-10003} setAutoCommit true
+DEBUG timetask1 druid.sql.Connection - {conn-10003} pool-recycle
+DEBUG timetask2 druid.sql.Statement - {conn-10002, pstmt-20009} created. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask2 druid.sql.Statement - {conn-10002, pstmt-20009} Parameters : [Ad_dd, db3eb6f5bd183fb681a9d080bffcff1e]
+DEBUG timetask2 druid.sql.Statement - {conn-10002, pstmt-20009} Types : [VARCHAR, VARCHAR]
+DEBUG timetask2 druid.sql.Statement - {conn-10002, pstmt-20009} executed. 1.973 millis. REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+DEBUG timetask2 druid.sql.Statement - {conn-10002, pstmt-20009} closed
+DEBUG timetask2 druid.sql.Connection - {conn-10002} commited
+DEBUG timetask2 druid.sql.Connection - {conn-10002} setAutoCommit true
+DEBUG timetask2 druid.sql.Connection - {conn-10002} pool-recycle

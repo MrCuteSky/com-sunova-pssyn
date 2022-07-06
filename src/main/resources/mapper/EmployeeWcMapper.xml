@@ -16,4 +16,15 @@
         REPLACE into employee_wc value(#{userid},#{name},#{department},#{order},#{position},#{mobile},#{gender},#{email},#{biz_mail},#{is_leader_in_dept},#{direct_leader},
         #{avatar},#{thumb_avatar},#{telephone},#{alias},#{status},#{address},#{english_name},#{open_userid},#{main_department},#{extattr},#{qr_code},#{external_position},#{external_profile})
     </insert>
+
+    <select id="getNewInsertInfo" resultType="com.sunova.psinfo.entities.updateEntities.WeChatUp">
+        select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile, GROUP_CONCAT(IFNULL(dept_wc.id,dept_wc_f.id)) as department,posi.name as position,shr_left.sex as gender,shr_left.email as email,shr_left.address as address
+        from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left
+        left join positionrel_shr rel on shr_left.easuser_id = rel.user_id
+        left join position_shr posi on rel.position_id = posi.eas_id
+        left join dept_shr dept on shr_left.dept_id = dept.easdept_id
+        left join dept_wc on dept.name = dept_wc.name
+        left join dept_wc dept_wc_f on dept.supname = dept_wc_f.name
+        group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.sex,shr_left.email,shr_left.address
+    </select>
 </mapper>

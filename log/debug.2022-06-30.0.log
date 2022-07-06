@@ -1,0 +1,140 @@
+[2022-06-30 09:24:29.786] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 604156 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-30 09:24:29.789] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-30 09:24:30.563] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-30 09:24:30.582] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+[2022-06-30 09:24:30.910] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4a716422] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-30 09:24:31.175] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-30 09:24:31.196] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-30 09:24:31.197] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-30 09:24:31.298] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-30 09:24:31.298] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-30 09:24:31.298] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1472 ms
+[2022-06-30 09:24:31.875] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-30 09:24:31.875] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-30 09:24:32.540] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-30 09:24:32.699] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-30 09:24:33.863] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-30 09:24:33.957] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), bcbeeaf186423e0ba7473fcc14ddae64(String)
+[2022-06-30 09:24:33.966] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-30 09:24:33.972] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-30 09:24:34.190] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-30 09:24:34.191] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 8a7c408fa7a13a4ab5eb1dcfc6c53fe1(String)
+[2022-06-30 09:24:34.195] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-30 09:24:34.203] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-30 09:24:34.204] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-30 09:24:34.847] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-30 09:24:34.848] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), x22YDnc_fyOZM8bKnKv4Kc2Hht5qqUHfl2wOxsfg1T75qPUPknQdjhfz6olbq54d4oPFlw5XPXNw9QuJUFd1FpXoalf8qgdbNxNYqLrIo1MWOBAHAM4Q3Zx9YbvASuqFFDsJ7L-VW87WEKvLMeDSqBDtFcKHNoBcmI1mzeEn9DYN0EOUDp-t8d7MkHnsonKa5BpkMARcVWyfkuZalEsRpg(String)
+[2022-06-30 09:24:34.852] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-30 09:24:34.863] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-30 09:24:34.992] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-30 09:24:35.132] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-30 09:24:35.141] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-30 09:24:35.185] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 18 mappings in 'requestMappingHandlerMapping'
+[2022-06-30 09:24:35.195] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-30 09:24:35.201] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-30 09:24:35.362] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-30 09:24:35.375] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-30 09:24:35.437] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-30 09:24:35.441] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 6.035 seconds (JVM running for 8.004)
+[2022-06-30 09:24:53.775] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 604152 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-30 09:24:53.778] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-30 09:24:54.748] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-30 09:24:54.759] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[2022-06-30 09:24:55.021] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb1bebd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-30 09:24:55.205] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-30 09:24:55.221] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-30 09:24:55.221] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-30 09:24:55.286] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-30 09:24:55.287] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-30 09:24:55.287] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1442 ms
+[2022-06-30 09:24:55.579] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-30 09:24:55.580] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-30 09:24:55.828] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-30 09:24:55.866] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-30 09:24:56.317] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-30 09:24:56.368] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), bcbeeaf186423e0ba7473fcc14ddae64(String)
+[2022-06-30 09:24:56.382] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-30 09:24:56.386] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-30 09:24:56.574] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-30 09:24:56.575] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 8a7c408fa7a13a4ab5eb1dcfc6c53fe1(String)
+[2022-06-30 09:24:56.577] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-30 09:24:56.582] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-30 09:24:56.582] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-30 09:24:56.920] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-30 09:24:56.921] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), x22YDnc_fyOZM8bKnKv4Kc2Hht5qqUHfl2wOxsfg1T75qPUPknQdjhfz6olbq54d4oPFlw5XPXNw9QuJUFd1FpXoalf8qgdbNxNYqLrIo1MWOBAHAM4Q3Zx9YbvASuqFFDsJ7L-VW87WEKvLMeDSqBDtFcKHNoBcmI1mzeEn9DYN0EOUDp-t8d7MkHnsonKa5BpkMARcVWyfkuZalEsRpg(String)
+[2022-06-30 09:24:56.927] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-30 09:24:56.930] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-30 09:24:56.986] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-30 09:24:57.102] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-30 09:24:57.108] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-30 09:24:57.139] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 19 mappings in 'requestMappingHandlerMapping'
+[2022-06-30 09:24:57.147] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-30 09:24:57.153] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-30 09:24:57.334] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-30 09:24:57.348] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-30 09:24:57.416] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-30 09:24:57.418] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 4.016 seconds (JVM running for 4.744)
+[2022-06-30 09:24:57.680] [RMI TCP Connection(6)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-30 09:24:57.681] [RMI TCP Connection(6)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-30 09:24:57.681] [RMI TCP Connection(6)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-30 09:24:57.696] [RMI TCP Connection(6)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-30 09:24:57.697] [RMI TCP Connection(6)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+[2022-06-30 09:25:37.632] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/update/wechat", parameters={}
+[2022-06-30 09:25:37.639] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.sunova.psinfo.controller.UpdatePerController.UpdateWeChat()
+[2022-06-30 09:25:37.651] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.EmployeeWcMapper.getNewInsertInfo - ==>  Preparing: select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile, CONCAT('[',GROUP_CONCAT(IFNULL(dept_wc.id,dept_wc_f.id)),']') as department,posi.name as position,shr_left.sex as gender,shr_left.email as email,shr_left.address as address from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left left join positionrel_shr rel on shr_left.easuser_id = rel.user_id left join position_shr posi on rel.position_id = posi.eas_id left join dept_shr dept on shr_left.dept_id = dept.easdept_id left join dept_wc on dept.name = dept_wc.name left join dept_wc dept_wc_f on dept.supname = dept_wc_f.name group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.sex,shr_left.email,shr_left.address
+[2022-06-30 09:25:37.673] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.EmployeeWcMapper.getNewInsertInfo - ==> Parameters: 
+[2022-06-30 09:25:37.699] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.EmployeeWcMapper.getNewInsertInfo - <==      Total: 7
+[2022-06-30 09:29:38.654] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-30 09:29:38.655] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+[2022-06-30 09:29:38.655] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-30 09:31:12.414] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 608668 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-30 09:31:12.417] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-30 09:31:13.155] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-30 09:31:13.166] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[2022-06-30 09:31:13.431] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7a24eb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-30 09:31:13.624] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-30 09:31:13.638] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-30 09:31:13.638] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-30 09:31:13.705] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-30 09:31:13.705] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-30 09:31:13.705] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1250 ms
+[2022-06-30 09:31:14.003] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-30 09:31:14.003] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-30 09:31:14.229] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-30 09:31:14.267] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-30 09:31:16.029] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-30 09:31:16.086] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), bcbeeaf186423e0ba7473fcc14ddae64(String)
+[2022-06-30 09:31:16.099] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-30 09:31:16.104] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-30 09:31:17.527] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-30 09:31:17.528] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 8a7c408fa7a13a4ab5eb1dcfc6c53fe1(String)
+[2022-06-30 09:31:17.537] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-30 09:31:17.541] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-30 09:31:17.541] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-30 09:31:17.870] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-30 09:31:17.871] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), x22YDnc_fyOZM8bKnKv4Kc2Hht5qqUHfl2wOxsfg1T75qPUPknQdjhfz6olbq54d4oPFlw5XPXNw9QuJUFd1FpXoalf8qgdbNxNYqLrIo1MWOBAHAM4Q3Zx9YbvASuqFFDsJ7L-VW87WEKvLMeDSqBDtFcKHNoBcmI1mzeEn9DYN0EOUDp-t8d7MkHnsonKa5BpkMARcVWyfkuZalEsRpg(String)
+[2022-06-30 09:31:17.880] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-30 09:31:17.883] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-30 09:31:17.939] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-30 09:31:18.031] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-30 09:31:18.042] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-30 09:31:18.077] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 19 mappings in 'requestMappingHandlerMapping'
+[2022-06-30 09:31:18.087] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-30 09:31:18.092] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-30 09:31:18.251] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-30 09:31:18.263] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-30 09:31:18.324] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-30 09:31:18.327] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 6.245 seconds (JVM running for 6.794)
+[2022-06-30 09:31:18.567] [RMI TCP Connection(1)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-30 09:31:18.567] [RMI TCP Connection(1)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-30 09:31:18.567] [RMI TCP Connection(1)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-30 09:31:18.575] [RMI TCP Connection(1)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-30 09:31:18.575] [RMI TCP Connection(1)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+[2022-06-30 09:31:21.684] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/update/wechat", parameters={}
+[2022-06-30 09:31:21.689] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.sunova.psinfo.controller.UpdatePerController.UpdateWeChat()
+[2022-06-30 09:31:21.697] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.EmployeeWcMapper.getNewInsertInfo - ==>  Preparing: select shr_left.fnumber as userid,shr_left.username as name,shr_left.mobile as mobile, GROUP_CONCAT(IFNULL(dept_wc.id,dept_wc_f.id)) as department,posi.name as position,shr_left.sex as gender,shr_left.email as email,shr_left.address as address from (select * from employee_shr shr where not exists (select 1 from employee_dt dt where shr.fnumber = dt.job_number) and shr.empType_number != 'S03') shr_left left join positionrel_shr rel on shr_left.easuser_id = rel.user_id left join position_shr posi on rel.position_id = posi.eas_id left join dept_shr dept on shr_left.dept_id = dept.easdept_id left join dept_wc on dept.name = dept_wc.name left join dept_wc dept_wc_f on dept.supname = dept_wc_f.name group by shr_left.fnumber,shr_left.username,shr_left.mobile,posi.name,shr_left.sex,shr_left.email,shr_left.address
+[2022-06-30 09:31:21.713] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.EmployeeWcMapper.getNewInsertInfo - ==> Parameters: 
+[2022-06-30 09:31:21.731] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.EmployeeWcMapper.getNewInsertInfo - <==      Total: 7
+[2022-06-30 09:37:59.927] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-30 09:37:59.927] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+[2022-06-30 09:37:59.928] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK

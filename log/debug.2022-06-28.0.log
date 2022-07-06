@@ -1,0 +1,477 @@
+[2022-06-28 16:26:43.070] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 293864 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-28 16:26:43.072] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-28 16:26:43.752] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-28 16:26:43.764] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+[2022-06-28 16:26:44.064] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f42d2401] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-28 16:26:44.282] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-28 16:26:44.303] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-28 16:26:44.303] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-28 16:26:44.386] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-28 16:26:44.387] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-28 16:26:44.387] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1263 ms
+[2022-06-28 16:26:44.709] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-28 16:26:44.709] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-28 16:26:45.028] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-28 16:26:45.069] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-28 16:26:45.873] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-28 16:26:45.885] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), CsjKNqiTBG0Ndr91p-cnLMm_OG3MK3a9fPW5VM8QBOsX0I7zy-CS9pBjQi28xFgwX8midKxPbzfotzCOkAukJYbK4ntEm5jL70wcUeBhPS0pJwizO9c-yInPjKfGneEULNUUrsJPxm5jjPQRBKIvf-hJQ6foWEH8CpzFrnWCaidrsYGSOz0Gw3DeT8wj04zqmNSDnWkcKnIlej2FSX_YXQ(String)
+[2022-06-28 16:26:45.900] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 2
+[2022-06-28 16:26:45.906] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-28 16:26:45.906] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-28 16:26:46.161] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-28 16:26:46.161] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), f99fbc698cb33df3bd0e61d2b256b0d3(String)
+[2022-06-28 16:26:46.163] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-28 16:26:46.168] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-28 16:26:46.359] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-28 16:26:46.359] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 962be40445d836f0a5fdcf9a30104034(String)
+[2022-06-28 16:26:46.361] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-28 16:26:46.363] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-28 16:26:46.587] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-28 16:26:46.763] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-28 16:26:46.779] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-28 16:26:46.842] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 17 mappings in 'requestMappingHandlerMapping'
+[2022-06-28 16:26:46.856] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-28 16:26:46.863] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-28 16:26:47.153] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-28 16:26:47.173] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-28 16:26:47.299] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-28 16:26:47.301] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 4.588 seconds (JVM running for 6.864)
+[2022-06-28 16:26:47.932] [RMI TCP Connection(3)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-28 16:26:47.933] [RMI TCP Connection(3)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-28 16:26:47.934] [RMI TCP Connection(3)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-28 16:26:47.947] [RMI TCP Connection(3)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-28 16:26:47.947] [RMI TCP Connection(3)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+[2022-06-28 16:26:59.071] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:26:59.075] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:26:59.091] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=b498ed795cc63abb99972ee47acedaa7}]
+[2022-06-28 16:28:23.899] [http-nio-8888-exec-1] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：b498ed795cc63abb99972ee47acedaa7
+[2022-06-28 16:28:23.916] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:28:23.921] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:28:23.927] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=bf392464d2de336181d7aee5dbed77f2}]
+[2022-06-28 16:28:23.992] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:28:23.995] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:28:24.385] [http-nio-8888-exec-3] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：bf392464d2de336181d7aee5dbed77f2
+[2022-06-28 16:28:24.399] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:28:24.402] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:28:24.402] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:28:24.403] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:28:27.127] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:28:27.127] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:28:27.128] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:28:27.128] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=null, message=账号信息获取成功！}]
+[2022-06-28 16:28:27.142] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:28:27.142] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:30:07.158] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:30:07.159] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:30:07.160] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=c8c93ea4e62f3c7c8a6f453400e86d79}]
+[2022-06-28 16:30:19.209] [http-nio-8888-exec-4] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：c8c93ea4e62f3c7c8a6f453400e86d79
+[2022-06-28 16:30:24.763] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:30:24.764] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:30:24.767] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:33:33.608] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:33:33.608] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=null, message=账号信息获取成功！}]
+[2022-06-28 16:33:33.609] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:34:55.773] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:34:55.773] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:34:55.773] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=ee7b7b726077378ba6df96a698fb707b}]
+[2022-06-28 16:34:55.773] [http-nio-8888-exec-5] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：ee7b7b726077378ba6df96a698fb707b
+[2022-06-28 16:34:55.774] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:34:55.775] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:34:55.776] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:35:00.320] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:35:00.320] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=null, message=账号信息获取成功！}]
+[2022-06-28 16:35:00.321] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:35:24.328] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:35:24.328] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:35:24.328] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=0cc9f7db00393b1c9c23d75710f36eb6}]
+[2022-06-28 16:35:24.328] [http-nio-8888-exec-6] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：0cc9f7db00393b1c9c23d75710f36eb6
+[2022-06-28 16:35:24.329] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:35:24.330] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:35:24.330] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:35:24.753] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:35:24.753] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:35:24.754] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:37:22.041] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:37:22.042] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:37:22.043] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=10f0c56ba8df3261b50e490f8971ba85}]
+[2022-06-28 16:37:22.043] [http-nio-8888-exec-8] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：10f0c56ba8df3261b50e490f8971ba85
+[2022-06-28 16:37:22.046] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:37:22.046] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:37:22.049] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:37:22.440] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:37:22.440] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=null, message=账号信息获取成功！}]
+[2022-06-28 16:37:22.442] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:38:03.562] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:38:03.563] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:38:03.563] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=23131d12f0f23ecfb2b3a2cbe0249741}]
+[2022-06-28 16:38:03.563] [http-nio-8888-exec-3] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：23131d12f0f23ecfb2b3a2cbe0249741
+[2022-06-28 16:38:03.564] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:38:03.564] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:38:03.565] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:38:03.991] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:38:03.992] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050220, message=账号信息获取成功！}]
+[2022-06-28 16:38:03.995] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:40:52.831] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:40:52.832] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:40:52.850] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=cde6bcaf703234e3b213c92badf608aa}]
+[2022-06-28 16:40:52.851] [http-nio-8888-exec-2] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：cde6bcaf703234e3b213c92badf608aa
+[2022-06-28 16:40:52.852] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:40:52.853] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:40:52.860] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:40:53.271] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:40:53.271] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:40:53.272] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:41:10.500] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:41:10.501] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:41:10.501] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=e998b4e71bb036bfbf775c1a5e574bfd}]
+[2022-06-28 16:41:10.502] [http-nio-8888-exec-4] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：e998b4e71bb036bfbf775c1a5e574bfd
+[2022-06-28 16:41:10.502] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:41:10.503] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:41:10.504] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:41:10.909] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:41:10.909] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:41:10.910] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:41:14.206] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:41:14.207] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:41:14.207] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=3ecb1b94c6503efd9b932fc8a0322c29}]
+[2022-06-28 16:41:14.207] [http-nio-8888-exec-5] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：3ecb1b94c6503efd9b932fc8a0322c29
+[2022-06-28 16:41:14.208] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:41:14.209] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:41:14.209] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:41:14.632] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:41:14.633] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:41:14.634] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:41:39.464] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:41:39.464] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:41:39.465] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=1d0b6b9152453439873cc6721a2d1cb0}]
+[2022-06-28 16:41:39.465] [http-nio-8888-exec-6] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：1d0b6b9152453439873cc6721a2d1cb0
+[2022-06-28 16:41:39.466] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:41:39.467] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:41:39.467] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:41:39.878] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:41:39.878] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:41:39.879] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:41:54.513] [http-nio-8888-exec-9] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:41:54.514] [http-nio-8888-exec-9] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:41:54.515] [http-nio-8888-exec-9] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=6f45810df456334fb6b56075a17fa1d2}]
+[2022-06-28 16:41:54.515] [http-nio-8888-exec-9] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：6f45810df456334fb6b56075a17fa1d2
+[2022-06-28 16:41:54.516] [http-nio-8888-exec-9] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:41:54.516] [http-nio-8888-exec-9] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:41:54.517] [http-nio-8888-exec-9] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:41:54.905] [http-nio-8888-exec-9] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:41:54.905] [http-nio-8888-exec-9] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:41:54.906] [http-nio-8888-exec-9] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:43:17.376] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-06-28 16:43:17.382] [http-nio-8888-exec-7] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-28 16:43:17.383] [http-nio-8888-exec-7] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-28 16:43:17.383] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-28 16:43:17.389] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-06-28 16:43:17.390] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[2022-06-28 16:43:17.396] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:43:17.396] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Tue Jun 28 16:43:17 CST 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2022-06-28 16:43:17.400] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-28 16:43:59.598] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:43:59.599] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:43:59.599] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=7b376aa169123650a016ef498de85674}]
+[2022-06-28 16:43:59.599] [http-nio-8888-exec-8] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：7b376aa169123650a016ef498de85674
+[2022-06-28 16:43:59.601] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:43:59.602] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:43:59.603] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:44:00.109] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:44:00.109] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:44:00.110] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:53:05.139] [http-nio-8888-exec-10] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-06-28 16:53:05.146] [http-nio-8888-exec-10] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-28 16:53:05.147] [http-nio-8888-exec-10] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-28 16:53:05.147] [http-nio-8888-exec-10] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-28 16:53:05.156] [http-nio-8888-exec-10] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-06-28 16:53:05.158] [http-nio-8888-exec-10] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2022-06-28 16:53:05.204] [http-nio-8888-exec-10] [DEBUG] o.s.w.servlet.view.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-06-28 16:53:05.212] [http-nio-8888-exec-10] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-28 16:53:10.739] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:53:10.740] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:53:10.743] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=0a5550c2cc4a3ca285645ddfaf5593f2}]
+[2022-06-28 16:53:10.744] [http-nio-8888-exec-1] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：0a5550c2cc4a3ca285645ddfaf5593f2
+[2022-06-28 16:53:10.751] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:53:10.752] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:53:10.755] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:53:11.182] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:53:11.182] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:53:11.183] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:53:29.498] [http-nio-8888-exec-2] [INFO ] org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:414)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2022-06-28 16:53:30.470] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-06-28 16:53:30.472] [http-nio-8888-exec-4] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-28 16:53:30.472] [http-nio-8888-exec-4] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-28 16:53:30.473] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-28 16:53:30.474] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-06-28 16:53:30.476] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2022-06-28 16:53:30.477] [http-nio-8888-exec-4] [DEBUG] o.s.w.servlet.view.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-06-28 16:53:30.478] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-28 16:54:04.021] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:54:04.022] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:54:04.022] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=fb79e55567f73d528ab1b0f31ddbbe0e}]
+[2022-06-28 16:54:04.023] [http-nio-8888-exec-6] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：fb79e55567f73d528ab1b0f31ddbbe0e
+[2022-06-28 16:54:04.024] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:54:04.025] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:54:04.027] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:54:04.441] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:54:04.441] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:54:04.442] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:55:26.630] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:55:26.631] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:55:26.631] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=526abb67dd4f3d718a4914d5d32187b5}]
+[2022-06-28 16:55:26.632] [http-nio-8888-exec-7] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：526abb67dd4f3d718a4914d5d32187b5
+[2022-06-28 16:55:26.634] [http-nio-8888-exec-7] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:55:26.634] [http-nio-8888-exec-7] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:55:26.637] [http-nio-8888-exec-7] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:55:27.138] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:55:27.139] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:55:27.140] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:55:32.718] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:55:32.719] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:55:32.719] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=42a54a0a4f053c638b16395849bace27}]
+[2022-06-28 16:55:32.719] [http-nio-8888-exec-8] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：42a54a0a4f053c638b16395849bace27
+[2022-06-28 16:55:32.720] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:55:32.720] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:55:32.721] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:55:33.156] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:55:33.156] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:55:33.158] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:57:00.409] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:57:00.410] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:57:00.410] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=d35f70fecffd3fcb98d851fbf14307f0}]
+[2022-06-28 16:57:00.410] [http-nio-8888-exec-3] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：d35f70fecffd3fcb98d851fbf14307f0
+[2022-06-28 16:57:00.411] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:57:00.411] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:57:00.412] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:57:00.841] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:57:00.841] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:57:00.842] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:57:04.850] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2022-06-28 16:57:04.850] [http-nio-8888-exec-1] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+[2022-06-28 16:57:04.850] [http-nio-8888-exec-1] [DEBUG] o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+[2022-06-28 16:57:04.850] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2022-06-28 16:57:04.850] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2022-06-28 16:57:04.851] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2022-06-28 16:57:04.867] [http-nio-8888-exec-1] [DEBUG] o.s.w.servlet.view.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-06-28 16:57:04.867] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2022-06-28 16:57:06.413] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:57:06.414] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:57:06.414] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=c336bc24076736d9ba42171a8e20ac24}]
+[2022-06-28 16:57:06.415] [http-nio-8888-exec-4] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：c336bc24076736d9ba42171a8e20ac24
+[2022-06-28 16:57:06.415] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:57:06.416] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:57:06.417] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:57:06.843] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:57:06.843] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:57:06.844] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:57:09.567] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:57:09.567] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:57:09.567] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=86fcf68a27263a5f85935b6fdb388b84}]
+[2022-06-28 16:57:09.567] [http-nio-8888-exec-5] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：86fcf68a27263a5f85935b6fdb388b84
+[2022-06-28 16:57:09.568] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:57:09.568] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:57:09.569] [http-nio-8888-exec-5] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:57:09.978] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:57:09.978] [http-nio-8888-exec-5] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:57:09.979] [http-nio-8888-exec-5] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:57:26.581] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:57:26.582] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:57:26.583] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=1cae6feb9b333968991cac05c132f1fe}]
+[2022-06-28 16:57:26.583] [http-nio-8888-exec-6] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：1cae6feb9b333968991cac05c132f1fe
+[2022-06-28 16:57:26.586] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:57:26.586] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:57:26.588] [http-nio-8888-exec-6] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:57:26.997] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:57:26.998] [http-nio-8888-exec-6] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:57:26.998] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:57:34.621] [http-nio-8888-exec-9] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:57:34.621] [http-nio-8888-exec-9] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:57:34.622] [http-nio-8888-exec-9] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=e535e7b3149f3ee1b6314c3a554eedd0}]
+[2022-06-28 16:57:34.622] [http-nio-8888-exec-9] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：e535e7b3149f3ee1b6314c3a554eedd0
+[2022-06-28 16:57:34.622] [http-nio-8888-exec-9] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:57:34.623] [http-nio-8888-exec-9] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:57:34.624] [http-nio-8888-exec-9] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:57:35.076] [http-nio-8888-exec-9] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:57:35.076] [http-nio-8888-exec-9] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:57:35.077] [http-nio-8888-exec-9] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:57:40.664] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:57:40.664] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:57:40.664] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=86535546dee43ab5972b7a0c627918ac}]
+[2022-06-28 16:57:40.665] [http-nio-8888-exec-7] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：86535546dee43ab5972b7a0c627918ac
+[2022-06-28 16:57:40.665] [http-nio-8888-exec-7] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:57:40.665] [http-nio-8888-exec-7] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:57:40.666] [http-nio-8888-exec-7] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:57:41.087] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:57:41.087] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:57:41.088] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:57:44.662] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:57:44.663] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:57:44.663] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=399025b5eb2f318bbd020468c0b639c5}]
+[2022-06-28 16:57:44.664] [http-nio-8888-exec-8] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：399025b5eb2f318bbd020468c0b639c5
+[2022-06-28 16:57:44.666] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:57:44.666] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:57:44.667] [http-nio-8888-exec-8] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:57:45.058] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:57:45.059] [http-nio-8888-exec-8] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:57:45.059] [http-nio-8888-exec-8] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:57:47.685] [http-nio-8888-exec-10] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:57:47.685] [http-nio-8888-exec-10] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:57:47.686] [http-nio-8888-exec-10] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=41f5708162af37659854ddfa2b7063c6}]
+[2022-06-28 16:57:47.686] [http-nio-8888-exec-10] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：41f5708162af37659854ddfa2b7063c6
+[2022-06-28 16:57:47.687] [http-nio-8888-exec-10] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:57:47.687] [http-nio-8888-exec-10] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:57:47.687] [http-nio-8888-exec-10] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:57:48.113] [http-nio-8888-exec-10] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:57:48.113] [http-nio-8888-exec-10] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:57:48.113] [http-nio-8888-exec-10] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:57:57.816] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:57:57.816] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:57:57.817] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=78bd6787337830b986a4b11718f0d586}]
+[2022-06-28 16:57:57.817] [http-nio-8888-exec-3] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：78bd6787337830b986a4b11718f0d586
+[2022-06-28 16:57:57.817] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:57:57.818] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:57:57.818] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:57:58.214] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:57:58.214] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:57:58.216] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:58:10.897] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:58:10.897] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:58:10.897] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=b5f6c87abb90396b8b41eb185dfba6f4}]
+[2022-06-28 16:58:10.897] [http-nio-8888-exec-1] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：b5f6c87abb90396b8b41eb185dfba6f4
+[2022-06-28 16:58:10.898] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:58:10.898] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:58:10.901] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:58:11.314] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:58:11.315] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:58:11.316] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:58:24.033] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:58:24.034] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:58:24.034] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=22a8b81f5de93d8d919beaed20b7ce1b}]
+[2022-06-28 16:58:24.035] [http-nio-8888-exec-2] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：22a8b81f5de93d8d919beaed20b7ce1b
+[2022-06-28 16:58:24.035] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:58:24.036] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:58:24.036] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:58:24.427] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:58:24.428] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:58:24.428] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:58:51.214] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 16:58:51.215] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 16:58:51.215] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=31ecfb5323b436d1ad8c3a75732610dc}]
+[2022-06-28 16:58:51.216] [http-nio-8888-exec-4] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：31ecfb5323b436d1ad8c3a75732610dc
+[2022-06-28 16:58:51.216] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 16:58:51.216] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 16:58:51.217] [http-nio-8888-exec-4] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 16:58:51.607] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 16:58:51.607] [http-nio-8888-exec-4] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 16:58:51.607] [http-nio-8888-exec-4] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 16:59:59.988] [timetask1] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-28 16:59:59.988] [timetask2] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-28 17:00:00.241] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-28 17:00:00.242] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), CsjKNqiTBG0Ndr91p-cnLMm_OG3MK3a9fPW5VM8QBOsX0I7zy-CS9pBjQi28xFgwX8midKxPbzfotzCOkAukJYbK4ntEm5jL70wcUeBhPS0pJwizO9c-yInPjKfGneEULNUUrsJPxm5jjPQRBKIvf-hJQ6foWEH8CpzFrnWCaidrsYGSOz0Gw3DeT8wj04zqmNSDnWkcKnIlej2FSX_YXQ(String)
+[2022-06-28 17:00:00.251] [timetask1] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-28 17:00:00.254] [timetask1] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-28 17:00:00.279] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-28 17:00:00.280] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), f99fbc698cb33df3bd0e61d2b256b0d3(String)
+[2022-06-28 17:00:00.281] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-28 17:00:00.283] [timetask2] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-28 17:00:00.463] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-28 17:00:00.463] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 962be40445d836f0a5fdcf9a30104034(String)
+[2022-06-28 17:00:00.469] [timetask2] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-28 17:00:00.471] [timetask2] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-28 17:01:00.727] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+[2022-06-28 17:01:00.728] [http-nio-8888-exec-6] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[2022-06-28 17:01:00.769] [http-nio-8888-exec-6] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 17:08:45.819] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingTalkCallBack?signature=e8e50ad7485f7e294c8e52d13a9b2fa4d9628d0f&msg_signature=e8e50ad7485f7e294c8e52d13a9b2fa4d9628d0f&timestamp=1656407308918&nonce=M2fHp4F0", parameters={masked}
+[2022-06-28 17:08:45.824] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.String> com.sunova.psinfo.controller.MessageNotifController.dingTalkCallBack(java.lang.String,java.lang.String,java.lang.String,com.alibaba.fastjson.JSONObject)
+[2022-06-28 17:08:45.887] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{"encrypt":"qp53/EWhrzClZzLBVTcaDWt6rMO0oMfPBJckJBSglB4FXo9Qzb9r8Px9EqEIDniEwDRYmNvssE9VxRZPAF5NZL7l (truncated)...]
+[2022-06-28 17:08:45.934] [http-nio-8888-exec-7] [INFO ] c.sunova.psinfo.controller.MessageNotifController - 会议预约推送：bookSuccess
+{"eventSubType":"bookSuccess","corpId":"dinga48ca462f414da8ef2c783f7214b6d69","EventType":"meetingroom_book","bookTime":"2022-06-28 17:05:59","preStatus":"INIT","title":"经营调度会～6月第2次","userName":"孔宪楠","userId":"manager9299","roomId":"1906","roomName":"行政2F报告厅","bookId":"dinga4e6d93aee614ee735c2f4657eb6378f","isApproval":true,"startTime":"2022-06-29 09:00:00","endTime":"2022-06-29 11:00:00"}
+[2022-06-28 17:08:45.935] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 17:08:45.935] [http-nio-8888-exec-7] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{timeStamp=1656407325934, msg_signature=8b7dea1fa9dbfd6e1ed2ba03ef4055723ac30140, encrypt=nBcjg8OQqm (truncated)...]
+[2022-06-28 17:08:45.937] [http-nio-8888-exec-7] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 17:32:38.091] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Starting PsInfoApplication on XN-DT-05-10 with PID 328324 (D:\IdeaProject\com-sunova-pssyn\target\classes started by 050217 in D:\IdeaProject\com-sunova-pssyn)
+[2022-06-28 17:32:38.093] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - No active profile set, falling back to default profiles: default
+[2022-06-28 17:32:38.958] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2022-06-28 17:32:38.969] [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[2022-06-28 17:32:39.229] [main] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40c55387] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022-06-28 17:32:39.446] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[2022-06-28 17:32:39.463] [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[2022-06-28 17:32:39.464] [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[2022-06-28 17:32:39.527] [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2022-06-28 17:32:39.528] [main] [DEBUG] org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2022-06-28 17:32:39.528] [main] [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1388 ms
+[2022-06-28 17:32:39.792] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*], filterRegistrationBean urls=[/*], characterEncodingFilter urls=[/*], hiddenHttpMethodFilter urls=[/*], formContentFilter urls=[/*], requestContextFilter urls=[/*], httpTraceFilter urls=[/*]
+[2022-06-28 17:32:39.792] [main] [DEBUG] o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: statViewServlet urls=[/druid/*], dispatcherServlet urls=[/]
+[2022-06-28 17:32:40.001] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥定时任务开始执行******
+[2022-06-28 17:32:40.041] [main] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[2022-06-28 17:32:40.654] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-28 17:32:40.666] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_dd(String), f99fbc698cb33df3bd0e61d2b256b0d3(String)
+[2022-06-28 17:32:40.669] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-28 17:32:40.673] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉通讯录密钥成功******
+[2022-06-28 17:32:40.860] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-28 17:32:40.860] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Ad_dd(String), 962be40445d836f0a5fdcf9a30104034(String)
+[2022-06-28 17:32:40.862] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-28 17:32:40.864] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新钉钉域控密钥成功******
+[2022-06-28 17:32:40.864] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥定时任务开始执行******
+[2022-06-28 17:32:41.235] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==>  Preparing: REPLACE INTO appAuthority (application,accesskey) VALUES (?,?);
+[2022-06-28 17:32:41.236] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - ==> Parameters: Contacts_wc(String), CsjKNqiTBG0Ndr91p-cnLMm_OG3MK3a9fPW5VM8QBOsX0I7zy-CS9pBjQi28xFgwX8midKxPbzfotzCOkAukJYbK4ntEm5jL70wcUeBhPS0pJwizO9c-yInPjKfGneEULNUUrsJPxm5jjPQRBKIvf-hJQ6foWEH8CpzFrnWCaidrsYGSOz0Gw3DeT8wj04zqmNSDnWkcKnIlej2FSX_YXQ(String)
+[2022-06-28 17:32:41.237] [main] [DEBUG] c.s.psinfo.mapper.AuthorityMapper.updateAuthority - <==    Updates: 1
+[2022-06-28 17:32:41.239] [main] [INFO ] com.sunova.psinfo.conponment.SpringTaskJob - ******更新微信通讯录密钥成功******
+[2022-06-28 17:32:41.289] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+[2022-06-28 17:32:41.495] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[2022-06-28 17:32:41.513] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2022-06-28 17:32:41.598] [main] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 17 mappings in 'requestMappingHandlerMapping'
+[2022-06-28 17:32:41.615] [main] [DEBUG] o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2022-06-28 17:32:41.624] [main] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2022-06-28 17:32:42.090] [main] [INFO ] o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[2022-06-28 17:32:42.112] [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-06-28 17:32:42.248] [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[2022-06-28 17:32:42.254] [main] [INFO ] com.sunova.psinfo.PsInfoApplication - Started PsInfoApplication in 4.539 seconds (JVM running for 5.311)
+[2022-06-28 17:32:42.879] [RMI TCP Connection(9)-172.21.3.34] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-06-28 17:32:42.880] [RMI TCP Connection(9)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2022-06-28 17:32:42.880] [RMI TCP Connection(9)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2022-06-28 17:32:42.889] [RMI TCP Connection(9)-172.21.3.34] [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2022-06-28 17:32:42.890] [RMI TCP Connection(9)-172.21.3.34] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+[2022-06-28 17:32:47.963] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 17:32:47.965] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 17:32:47.979] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=c625e8cf92b53f0590aad349885426e4}]
+[2022-06-28 17:32:47.982] [http-nio-8888-exec-1] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：c625e8cf92b53f0590aad349885426e4
+[2022-06-28 17:32:47.985] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 17:32:47.986] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 17:32:47.992] [http-nio-8888-exec-1] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 17:32:48.416] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 17:32:48.416] [http-nio-8888-exec-1] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 17:32:48.426] [http-nio-8888-exec-1] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 17:34:38.994] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 17:34:38.994] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 17:34:38.995] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=e9a0f7c73cc233268f7799c630770c98}]
+[2022-06-28 17:34:38.995] [http-nio-8888-exec-3] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：e9a0f7c73cc233268f7799c630770c98
+[2022-06-28 17:34:38.998] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 17:34:38.998] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 17:34:38.999] [http-nio-8888-exec-3] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 17:34:39.451] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 17:34:39.452] [http-nio-8888-exec-3] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 17:34:39.454] [http-nio-8888-exec-3] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+[2022-06-28 17:34:53.792] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - POST "/dingtalk/oa/get/userid", parameters={}
+[2022-06-28 17:34:53.793] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.sunova.psinfo.controller.AdController.getUseridByCode(java.util.Map)
+[2022-06-28 17:34:53.793] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{authCode=cb3e27fb75f23d46b30e6d6c243da30a}]
+[2022-06-28 17:34:53.793] [http-nio-8888-exec-2] [INFO ] com.sunova.psinfo.controller.AdController - 获取到的authCode：cb3e27fb75f23d46b30e6d6c243da30a
+[2022-06-28 17:34:53.794] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==>  Preparing: select * from appAuthority where application=?
+[2022-06-28 17:34:53.794] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - ==> Parameters: Ad_dd(String)
+[2022-06-28 17:34:53.795] [http-nio-8888-exec-2] [DEBUG] c.s.p.mapper.AuthorityMapper.getAuthorityByName - <==      Total: 1
+[2022-06-28 17:34:54.186] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json;charset=UTF-8', given [application/json;charset=UTF-8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-06-28 17:34:54.187] [http-nio-8888-exec-2] [DEBUG] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{code=200, job_number=050217, message=账号信息获取成功！}]
+[2022-06-28 17:34:54.188] [http-nio-8888-exec-2] [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 200 OK

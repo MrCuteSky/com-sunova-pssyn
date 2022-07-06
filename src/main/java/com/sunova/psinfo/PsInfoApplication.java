@@ -8,6 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class PsInfoApplication {
     public static void main(String[] args) {
+        System.setProperty("com.sun.jndi.ldap.object.disableEndpointIdentification","true");
         SpringApplication.run(PsInfoApplication.class, args);
     }
 }

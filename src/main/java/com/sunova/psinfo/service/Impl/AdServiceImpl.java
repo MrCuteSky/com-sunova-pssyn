@@ -38,7 +38,7 @@ public class AdServiceImpl implements AdService {
                 userid = o.toString();
             }
         } catch (Exception e) {
-            logger.error("免登录获取用户信息失败!", e);
+            logger.error("*****免登录获取用户信息失败!******", e);
         }
         return userid;
     }
