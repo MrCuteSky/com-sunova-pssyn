@@ -1,6 +1,7 @@
 package com.sunova.psinfo.controller;
 
 import com.sunova.psinfo.conponment.AdCon;
+import com.sunova.psinfo.entities.AdLog;
 import com.sunova.psinfo.service.AdService;
 import com.sunova.psinfo.service.DingTalkService;
 import com.sunova.psinfo.util.Context;
@@ -65,6 +66,7 @@ public class AdController {
             adCon.modifyPassWord(temp1.toString(),temp2.toString());
             result.put("code", 200);
             result.put("message","密码修改成功!");
+            adService.insertLog(new AdLog(temp1.toString(),temp2.toString()));
         } catch (Exception e) {
             if(e.getMessage().contains("5003")) {
                 logger.error("*****密码违法策略要求*****",e);
